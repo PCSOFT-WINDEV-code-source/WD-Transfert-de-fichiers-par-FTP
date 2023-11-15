@@ -1,0 +1,314 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_RENOMMER_FICHIER
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_RENOMMER_FICHIER
+ identifier : 0x23e8add126eeeb2c
+ internal_properties : CAAAAAgAAABFLcp743dGqnC2Of9oxjb1pben6/AM0hct2aO8sUTOAT7LSmcwrVtfyh0n1W2wtvF7WyLPI13c2HeSYvFMgX3ou2Qyw3h4RktPTx4K+9PxcJ4lBwsvxfQ7EU7JsbgnQRK+TnUo0lyWNI+vVBNL/o2ahWO5dEiAgZGregrmp7a4SdOjGe7x2WgSKDyX2GgGcFYiv3HejsgAOwXkY+Ti3LzT5aG5+rrV5scdW0zo2AZebhrO1AsCLG3VPCWRmASAzX6M1n89mAjxCIRbVIT+CfEm1l58dMKKkogAl4iPhuiCFCnjPodLi98eUyn2RXuLf/mM17Pgmcl9ZP7kVum+yQqeuR+EesYWN78P4YagZPhI0VAST2AlVMS5CF+To1qPnYz1eile8THIvyWjILAiJbiv2oQBS2rx+3wLG00xC8Rb683siplt05wTI/b9qfYcrdmjt7UXw83THhE3jFDOkRDMp/pCUFHsN/y2BI0yVSrek0QFmQmUREZcUIpwlDywQBHQyvtBMZvNL4acaWchJL85HTszyuPU6hQBXOUNIRtAQ7IOiB8PR7vTNdx6nUTHlAp3gXN35Cm6DKkNLG4Cq+0MuzF78C6V08gD/MbQFjS1UCUM46vh9FgC2f+hozBYYReHqBZO40h+h+miMuEEDVw/2XEEGB6lrvx9wizucgjFKF4WNFhmDgaUB7di+UgXky2oTQQ+Ex9NSulnXkgvyD3u5J79NkEPwSXqLdsMuLt8euCE0Ztsy9ZHMhE2F8ZLZcABLTmsb0MVWlnUMRsQhStd1bXnvpQ9TAG31LkYoRvX+qWHnEHr7UrsiVFlCMVDLOAKf6H80p4epTdhsbd6TncFTuWJWvPdN2pYnoALDANenMFVIbYWdxABCkRUHCt8YgB1e6leqVUL3uVxdmtEBPjd/QFF54lMwgYtLpqTIrZGEeWmErv+r5b6WeyEC3og5ypc2yo0VarNQs8jSw+KN8YSjDlcyZ4o4qhhVee+AW3sVloQjwjj3d6rgyjtkacQBRpotQ13NsqGOSdWDJCqccBD4dX4lhgT/JuJwuNsEOQF0yVrE1Kyk9Qcm4NiMlpwCYRgamO+n4omp9r29yHnuzjayU6IFWIC79HPbN8LS50+sHMIur8JuRGpNoi7vLs3GXLKCxPq/P/VKl0Z/fhUCZUzv8/VQCvlratRl8jTRoyF6vsLxzoNulujxHAagw8y27d9cXyezz+RmiFSyaC6IGXLzFZMLIa+69JWekbVrcX9Pd2VaQMy7ffhaTGCbkVgGuEw4EWp/ibsftuwy0o0We+dBJJSb+IN7K5qwKlMLCRBY+c639NoA5LD18ku+F+GSJF+WfsTu/fKu27pP49WPg7/E3yAUcMdH/0pt/NdqEMjwFYkPcQ5kNH8pG/QxC5nsqDDrKHX0WoNt/kzDC/j6okPsNEBV6HB/N9IjV8zL+awql1ExA==
+ properties :
+  width : 373
+  height : 208
+  widthClient : 371
+  heightClient : 176
+  widthMin : 334
+ controls :
+  -
+    name : SAI_FICHIER_AVANT
+    identifier : 0x23e8add126f0eb2c
+    internal_properties : CAAAAAgAAABFbtI4CePppZWgGRivEdtwU+5HNElgsZxkB1zfsHhJUX+YZ6DKwOFIImigrWYWAbtwimaUZ4CdKKPHUqnftTzBq5/uq87SLBhz0uVMbZnPdsAMvDPPu/77SZibbJfB1KkzamsFbVsZv/x4r30GX0KOtoftSZvgF3ZKMjIg54W+FV8CVDWtoCJQrr9TUEBbYxrdIPxMNPUMJskZKTAXaARz79GGBq8hBKBvA9Jec+0wH0i1pmyfA/TYUGFbJFKyKuGemmdQ+mW0Ew87QafcIQ4J4UfNc6RnamsV43Qcu+5b/RRKAEilNiRHhXBuyUFeaXdUc2o8tUdtMOUgI7Muusmb0ItgWKg1ApZhx37t/3SfRRnBIh6I7rz1ECypFwCSMvHtaV0RyLk16F3xNGsYI2HK1hJT5hsyC0Ewx2aU5Nem2UzT/rTKVSG3/s18NYBFP+p78gsF6j5WExYDX0+mxm2mx/fzBOR9Z82T1DvKru12U9ot0FlgTaB3JCA1MMena3S28EmJ6lEC0l+2WCIJzrzv/IJhYjZImo8FWridJzO+Wlw7wjJfrxazofkN81xwMw7brVGttGDPgUm2L81vaHnZyj+NZtN706N0S8BWvuPhJEWMOQcKoIzWnjBn6Ahlk/+Dqenojlo/wXUwQ7756kisy8JOoPo5QDxJEB5Te7PEOXU8Vdtx6BCFboAvvF9jiU7sl3Pnh7bGJ0BXjXJIOiDabjKhq+eLYhdGhtqGDyfj5AWAfc15EcrvAwsVlIJ1tdmNW8Utr2aUCmZK4aJS9u5zd96rS3QG7oralqlgjI5mAGUiFSNuji3X3bDh7AsjhOt7V3jR7W99zwEjTAvCfUG4lHjzdrr/g25DXP6SnwgpmBebSEQXtI9Mq7KsydI6a1LZqfCPdLcwIN38Uq3bWCFGa8B+JctOn7TpLw19aPCDgC8cjQD58Y/338X1U2LLS+DEH39hxxDoXRkeFHnhSfsn6YMk/HiAPPsV9DiznvaOUiZwhyFc6JD0BiOetGmPv4BTgtgEYC2jCyYYR2yFRa+0vjtg2PMbsd+U2pSgmVxA15WPtZVp3sDLwYq4SKl9fq8LjTomAWIv0gFaSDfKJ+XdV3tlRiX+XYX8Dl47L1xRYRadfUv2i/I4XdLzudhZs9jR3lwlV7ifJ8QxCsKdecav3Bf6ePKwXas6XlPZ9SPvdAwKLrznaJe5gVBAjSDK1Oy0ItBZq0RhuRIivOhwRDBZlVBTaqsoqW8qaJUhHsg7zNXq4vAxSKmfm6JBNny161RrFLZupA4Pbl/czNBTy5rKV/EZNEUAXXwfHflhbl+CJQFvKf5VCPyqtkauwYVaXxz9m+dEJ0il8aZ1u/ybyX+TTZq2AVQT9mcaDpHAbIZnDySzgfjwUU+JK6C4
+    properties :
+     x : 6
+     y : 53
+     width : 354
+     height : 38
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        code : |1+
+         SAI_FICHIER_AVANT = fExtraitChemin(sNomFichierEnCours,fFichier+fExtension)
+         
+        type : 14
+      -
+        code : |1-
+         
+        type : 15
+      -
+        code : |1-
+         
+        type : 16
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        code : |1-
+         
+        type : 17
+  -
+    name : SAI_FICHIER_APRES
+    identifier : 0x23e8add126f1eb2c
+    internal_properties : CAAAAAgAAAD5pb0U/kdpgw36vYD57Qor7ZKwpgKJOARAqAjTnZHAp/ZoDzWECnf9WU7/NZSFp+Ulcj1HxdhOVjYoaL54LM2HKgYexUJ7DOY75wxCY2BemW6uXL9JqkJb15g/SobR0jD30v2Yw4PorJr5XczEM7W5/s+++pfdkivSySmJPOHr7mogFVRoNwKsmuIYLDO0H1/uq7Dzt+OCX94qAOvAlS9M0IYzjbb2xq+Ap+RTpmU0oYo6Dq/eQ+Bcb7uThNoh3Y4xV7CAGiHboan8f7UBHZ0iT4EjurrUlnuXjusxR9uOZORnxdZlgO/mAe0DZQIGjAB7t0xXt9KaZ2J8liKqUuyTGSeTmOANmMBa4aJ6idIMQJl+VS7j4Y8czI0RcAHj05MqJbMIyumL3zKZ6KebR8LIwaEIHKlZBGte6NQS+spQlI8PDYSXjoT3mY36OyTvBdCEOaejz2MJ5H2zSlxt4Tyn1xd0oXZ2GoSuOhcP9GB+kDKnBvBeqLYyV7Dmt/wGb70HoodlPgOtvLncTrXOBNS/czBId8D8k7tXUwqTnOFvFzO8RzPui+8/J808t2l9c+hKybxnszTxCdE8yZeB+lUHDUs7OsQsJ6ANpEwqY/+4NPVstjxv5N9J8u0BzfQz0J9SwWBVmdjmtibOAdDJAVQSR5EM8rEvQ75MnA/MjDK0bCu1HH0qTJjbax+p12pemGGMQHlBkzETnBQRzZFTGjWPQ8nb2E+1exM3rZdkJAcyqWn+oEE5h8iHhXTi2u2hfb0bPYmsdcFEWQqpUYiJY92ieYkV87qTDBhpH22JoKK+qHM3v+Pv2kHJM/SdiAtXSjqu1eYdcIfxdb8Mrow12rrm3IO/86Z9E1Voc9puPF9E7/5DAKNc2rQO3i7/r7ITNkcNPReyAV1m9msTnn1Mp7a0EtjH1neHJovjdt8eXCUCZXrtG03pMeYOT1mZdW4Ox9iJeGOVjocwuS02O3MzZQ7NIQm37yfKXkJ8PNS/wnaF/EKcRgoUMAHh8RGqbR7+K45hQGASwTJ/0FDXUqCf9N2WKBmnl8AXzkCSpBw3OJGzoKmSuQnmc3W+wzSJq6v6N3SRkhSbXqea9L4utcprABF29wpfT8chELt24BAiAUt9AFt3nip0KKskSoBXDqNCvPLAzEbHFcOYfIscpt/YvpqkUoj3RT7gEQATDgqfSAX20G+LjBiQB4VLxQOpGRs8doi7VDFzJaSn3R9UH7KDVXJAQCBWGWdCC6/tRky2ZQ1Msmk6QWHaYDkF0s1FVrCLVu3BzNk2zKlhvgV6ghjrNeZwQhM8y72XQCPzz2HhYhU688VrOCHjojODQSVhqnkei7Gg6q9CJ/CPjVBCYpZvh28u0Cq16IbZ73k4MTBJasAY0zeJhAj2FYfuGPUP+cj/rq7yDLRX6Si4agOPxIDg
+    properties :
+     x : 6
+     y : 94
+     width : 354
+     height : 38
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        code : |1+
+         SAI_FICHIER_APRES = fExtraitChemin(sNomFichierEnCours,fFichier+fExtension)
+         
+        type : 14
+      -
+        code : |1-
+         
+        type : 15
+      -
+        code : |1-
+         
+        type : 16
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        code : |1-
+         
+        type : 17
+  -
+    name : BTN_ANNULER
+    identifier : 0x23e8add126f2eb2c
+    internal_properties : CAAAAAgAAAAU3aNlOs8in4cz2iSbhB4k4psY2n60DNwvadcg1u0a8PRJSqZZkTUNRaNO6xhlFIAEKd8/ol0cvbueSO+Cn8P/q3aifm2g+gISk7SiU8NAu/MJurcghxnfwA1WoWJdK1oSNWB5xEhMKFOsgygYrDkh1WHz/HCX61r2hE1fE0bD/L+nF0p0qzHBUkrjhr5oq43WA+yBpkw4TR6gY+lr1jXa8sbj36SDobv7bz/68EF4me2m79whNKNYqe4ABu84VZQ4uxEDYr3X/h9UmF8FkF58OKgYEW2c/YXvWF5y6STY40lpvR7/hV0m3zs731UOitCsEmYWiUMHX8xsF1tZ+Li4gGMOxy7djAIuORLqZuex/aE8VwUYZ/HplCw9hBpvHJsv7Xt0/ARZryrshKIny82dg8+TlpccwbL13IE0ld6+eWWKxXTWTLyOxPM1/aO6Vs/DsSP1erxQ8bYILtnaRI/jaB5HDA9PWMdF+WPDdI9jb0KqI+Fes72tRtj39maTI+3K9jVMDvlY+qtlwTPYjg+Ebrrnu3c9LLPAoVGSquJFyhQS5LBd7NoEuA8+TvAkhBSPPdXzvrAfmOy49WydSct2zpc/xIYQzidZaSASvE3BjO2jjGhQAPsgYs5dRlSF1S9GvCnkIoApi506joTIkDA7MtTpC0IeeBvbrXJ2PIz5k4HUXGAfd8pc9yeXQ0mstTFxpPyj6bknFLLOE2vS+T2PbB8ah1Oim6pchL2nDd3yFLHyRq3A06uOfNGMRlthEAlTToFvaGAukrg2kso76wgbJe4RYkcuZippYt5ql0p+k59DLEwcj/9rDX9+eluWFsJRvh3yDU5ckIeWH/IFDadGV11l7nxEZGEmscV9ryF3QoebYSkxEqRbmAvW/1rhnyZjDBspbqAOrfunXJxfz1p/iY48lzjmfadhn+BTKRHjgZXeJo1OpR/v/njdoXv1FkgrUe4M5GS0vJC1237iqvorTGYkhOT/k61HWF3KdNK4qakjovNu+R0c
+    properties :
+     x : 279
+     y : 138
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        internal_properties : CAAAAAgAAADQZyvpRjJZltgKBVFD+SKMukTEU1n2G2jmPSjnx1ZKdSF2vB36egNKcReVrz/xwpIZdIpZoyUu0CjPxu+MpGLAedmE/39iAmJIcu72BpKoWkpseLXy2lnJGPSMFw==
+        code : |1-
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_OK
+    identifier : 0x23e8add126f3eb2c
+    internal_properties : CAAAAAgAAAD6B94PenGtzeNWvsxjbHh+Qi8AhGBO6GfR+dmx3CX4BBRB1ChB+lOTq+iL4/HKbhXRfKDnNTQN51eevXjGgPwwdYSjCVYauF6vubggoAC2YfEBa8lhhAIFwuwbG8vsoKOEfo17WUg0+/ZpCQ3X7oo5PLUZRCavbvmtNM36gF1Ng3UDurXztcp1pheDMGuG2vQal4277bU6gkv0a+ljGby7LXGsfD5E7kbw+w1ymBhImtDCETJ+2nWRRoOeP8FGCvjdIxxk0tuyaCofWsRF1tconLWAcH0hIO1tzGz6mKee/sbW2LCr6p5EUyeYyWnsPjM+SHyTm5qA1+UrybO296LFyq8ZkKsRWexbGkmnuOptq4CRQbi7/GeqE/7i0kX/CPoKCHBAiQo46N3JPd59uihT8f57RFNMvp3lHprdN/m/iNTQ0vY83P6o/7u7q28LwvS15N4+zdl/DINRSE+260+2TjR2SKcWg3G/wQajSkJJbHtPsjhFlQNXumA/6A08/7J3OyjHA4zhp9Fvxk6xEtTHyW6jEuXWPsUOs1/ToIT2zDpiNzwwLI2RtOkFzG58NB/corZyOYetRM5ajqXSIBPfD0ZUXXt/MYpzyECC5YiHigWDh+k4bt5GS+dZimeOzQDo0jC6EQvaYJH8at4xJaMaPP8OSkABccHh5lZTHzoIT7EGz64K9nYzpQN3pbGNTkzRd/xVIpZDNT3eRb5x2/Q1X1SbVwnSzADML3Y9xJ+S9tGIvnKaBvBI0mHZKJozHFFl85LixfPg+CxmiNXQu1jl5UTe/zDZ2YgRW2IM7K7oNT4KC8q+QvhI+ntdEf9z6V7QcysxS8FBSe0bwFVRbQRNMungGTudQ5No8SEB2rGBsuhE8thGtNO1LrnmaAAnlyubb5xgW+sD6SsoXNvmaMLreLnJWvOZ6zJgD7eKyNp2NeOk3sUF+DSe1byR/e/2ruR7OTu/zRtpkRuQXCdinMBDh3NHfYvuPPp8JZzLxbWoM1tA+YT90/Ny
+    properties :
+     x : 193
+     y : 138
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        internal_properties : CAAAAAgAAAD3PfhAj13+e3Tq365W/blzvSGdoN6J5K4US3kiB8bjYfoY0ANQmI+kHwpltaxV/4XJzvToP9zvc0FAUaUEhW3Nud9GGA0xCOiIYt4jowi+e0qmBhgGkQ==
+        code : |1-
+         // On demande confirmation
+         si Dialogue(ChaîneConstruit(<§$0000§>, SAI_FICHIER_AVANT, SAI_FICHIER_APRES),[<§$0003§>,<§$0004§>],1,2,dlgIcôneQuestion) =1 alors
+         	
+         	// On regarde si le nom est le même
+         	si SAI_FICHIER_APRES = SAI_FICHIER_AVANT ALORS
+         		ferme
+         	FIN
+         	// On regarde si le fichier est distant ou local
+         	si bLocal = vrai alors
+         		// On travaille sur un fichier local
+         		frenomme(fExtraitChemin(sNomFichierEnCours,fDisque+fRépertoire)+fSep+SAI_FICHIER_AVANT,fExtraitChemin(sNomFichierEnCours,fDisque+fRépertoire)+fSep+SAI_FICHIER_APRES)
+         	SINON
+         		// On travaille sur un fichier distant (FTP)
+         		FTPRenommeFichier(gstConnexionFTP.nIDConnexion,fExtraitChemin(sNomFichierEnCours,fDisque+fRépertoire)+"/"+SAI_FICHIER_AVANT,fExtraitChemin(sNomFichierEnCours,fDisque+fRépertoire)+"/"+SAI_FICHIER_APRES)		
+         	FIN
+         FIN
+         
+         // Fermeture de la fenêtre
+         FERME
+         
+         
+         CAS ERREUR:
+         	// On affiche un message d'erreur
+         	Erreur(<§$0001§>,ErreurInfo(errRésumé))
+         	
+         	// Fermeture de la fenêtre
+         	Ferme
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : LIB_SOUSTITRE
+    identifier : 0x2925727c6aeea0c1
+    internal_properties : CAAAAAgAAADRNrMI8SBZGjzwcK5i/ccn9jGd+rjLvnZk7NdbupykAJdmKqsdhQ6h4gBz5BrEz6kq1tGV1TkReMjdInyzDkJRUnUOVyooDvQhwnixp2LCpY0QSmuAzTsGAsYgSq0QLSZyo5RcNbAIxX31vROIUY08aIOEqseZAMeBFeZA/srHgtBjWBua9JTSpwprkKQHTIqzno4O6UtTxZrcv0SL7an/WqsMoIXHYG6TDxdMg1tCdpK70M2/OyRwI5chRy10UoU66MN8pumcqid/OsOSf0sGdLsbZsEAVSiJXFmvbjJ/xnumUc1cLoEksRVXvGe4hTGm0C2RIJ1pti5cf/NfJaMixskumye6xoySSbZXtdQSbACBLbPgR9s0hbIbHgVzdTrFhIt/Cob8lBfLuhdocndXjMJEPm7UpTEzn07I40Ma3O8Jw3Yfz3xgoqodgtU6+1+jYDhhOCcUbxfJyeGVnoNuUbpvJLAQfucQPSx7ikS1HttCMwqTEPzetSmtAzQDhE3RFVIrV/4KqGUgKeVQbBe5nGBvvHc48E8J5bTLCNz2zE0=
+    properties :
+     x : 4
+     y : 4
+     width : 347
+     height : 29
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1+
+         // Exécute le traitement défini dans le modèle
+         
+        type : 14
+ menu :
+  name : _Menu
+  identifier : 0x23e8add126f4eb2c
+  internal_properties : CAAAAAgAAADAfZ27Q+jJ/MBXHLGCb7PyE2Yqjvuo9mAX2ZN+LLuyQtzms1431znXR0sNCCeLESXZp1gqmo+m2mUhb2ELR2phZ8VOgUSyXddfQyxpxffipvH/iiFuFkCLgpjx1Ah9/9/ndeRpWb0s9Qcjy8oPtW3aMcRtuglgDe5Ch9/jnC/Drp19/hhf+qz96diLw5T0yWlzg33c/E8hhMwUBdSOV69/8iDQGLfTvLoTvV3YkiQ5Dce7dxB2gUx1AVvVTykQMm7G+0haIOV568KMGgPEJluRN2XjgQ11Tb8vVxt6P2g=
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAABKPdI4QoDUOQs5IUKNkotmGZgVaocAFFXEzcQ+uB/WQikdFWDIiv7Ix2dsDDpfZx8n7GQgsmhsuK7EXPGPLk3cXs0N4/MaSy+cVFAo2vYst65feqi8HLugkM4Xron+qbo=
+ actionbar : {}
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      PROCEDURE FEN_RENOMMER_FICHIER(sNomFichierEnCours="",bLocal=Vrai)
+      
+   -
+     code : |1-
+      
+     type : 34
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+     type : 2
+   -
+     code : |1-
+      
+     type : 11
+   -
+     code : |1-
+      
+     type : 12
+   -
+     type : 17
+   -
+     code : |1-
+      
+     type : 13
+  templates :
+   -
+     name : FEN_RENOMMER_FICHIER
+     identifier : 0x1543cfe00267412e
+     code_elements :
+      internal_properties : CAAAAAgAAABG14K4Dav6AE9a6taOE22On5swWwavlGFji+5FjSphXOIOZoMvpA0M8lW/J0i8s2jsqsJQv1DoDJKvIJiNLZSGCNAXLOmJpCAx/4d08ctBjDSz1nk+zKr0H2OucLNiNJrU/cvoXhlc
+      type_code : 1
+      p_codes :
+       -
+         code : |1+
+          
+          
+       -
+         code : |1+
+          
+          
+         type : 34
+       -
+         type : 180
+         enabled : false
+       -
+         type : 230
+         enabled : false
+       -
+         code : |1+
+          
+          
+         type : 2
+       -
+         code : |1+
+          
+          
+         type : 11
+       -
+         code : |1+
+          
+          
+         type : 12
+       -
+         code : |1+
+          
+          
+         type : 17
+       -
+         code : |1+
+          
+          
+         type : 13
+ code_parameters :
+  internal_properties : CAAAAAgAAAAhInS+NDJXuJjZEVrqwOH6p6Y/aMmIo5qISeYCIBY2SoEUy11wntM2rs/JHLoXEw14izZUYcZBOQWz8lMbhZFBe1/W1eT5JIjZaJHXYFkSJydDCjhsmz3KoTNBS3ZJ8oVGzgI=
+  original_name : FenRenommerFichier
+resources :
+ string_res :
+  identifier : 0x3adf00e522d7f3bd
+  internal_properties : CAAAAAgAAAA8HpItcN7eoRKcVNu2KtzNYqygVd9Dt6eqyJwtSaB1ofcXGciKNhTxlmv0bbss9esrKw==
+  strings :
+   -
+     text :
+      fr-FR : Confirmez-vous le renommage du fichier <%1> en <%2> ?
+     index : 0
+   -
+     text :
+      fr-FR : Une erreur est survenue pendant le renommage du fichier
+     index : 1
+   -
+     text :
+      fr-FR : Oui
+     index : 3
+   -
+     text :
+      fr-FR : Non
+     index : 4
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

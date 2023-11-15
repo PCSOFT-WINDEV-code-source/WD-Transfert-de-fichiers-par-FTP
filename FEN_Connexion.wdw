@@ -1,0 +1,1195 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_CONNEXION
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_CONNEXION
+ identifier : 0x23e8acc90518e34f
+ internal_properties : CAAAAAgAAAANTXsxrwpl31UQCxz09eDvIxWCfbR/Ei+rkTBWmnyiKvJGLDqR3G98tsE8isY6cxqDOO4LoZ5XBiC5JtPVoSeWWmAOaNTYLqtb84jnaxorG5DwbyOAhEznc/fIXt/rOzhhC0r2NCAPhX3XCMJSbQHvt8J3nzXQ1Mp1Ygp2XiW5bwF5nswJO6HJ9hYs2wWOz26gaZuC6d4WF8qqUJwV+PZAtuccn2/vaOQ2yZ9ye3AkEj8I+D61DmhRAlD4eXwDRxk7vbD931SGnszpmRXTy55qvLuoQCRs4wiU6AKFNlJEoBUMLbROjmlZ7mHs7IhXDD+qzT14ZUGvXo97jIy6dng9ZwI46arnttHao66KfAsB9Y0cW9840Knp1PWuDRqlcVSL13Q73OICyfrY+rEThijbcPZ7gpKo5KAcdOcrZF5nNOOjkdBv7zRVu13n0j32mk4jZOcLBaQ3J+pc1SXDrmAlcA8HfMfDG5Rq89PkE69+qm5Sq2x3eyV3wPJ7zSxBb8OLZ8wr2kxkaHQuifyAi045VyCci0umMLkuw3lPitD/s7FTUvzCaM5PqxB81bijR8aCnMYg/VXjG7s6BmVjVkPqA1967UOZnFis0l5U2ZGcSjWHIqxz14G2tNN0z6Q14Y3RHXhFsxas9WvZ7tBMlq9i8zezDUMwvuZlb1B3PbsVTMhLqkF0fBkbYYrH8QJBiKKYGxgXvcKwlcDdMO5OHJYMNeng9IdiPmGxdWhqlEo1/XP5dOVyHbOa0inx1OuHdNKfhOUfkdQFmeO/i9F+crdI5MUpHMShLLEeY8WjqjL8vbhoiR3CnQ4CLwxV1TN0x/bz/nP5xQ2jHgRy3uNlfu0Bb7WLUCsCF93v1NSuayJqlTCDxotiYFNFN+GPc5Nmm8Ph5+uz0qGVQVulFU3C+xS7+LXNaNTeBR7L+2Uq28KFCRTqR2NwScq3ba8Vrj91GFzwA2JCUUer/iK55xT2o0auSCMwH65KeEVSvxMAczxs2SwYph2linYFuEA+6xlS5pF8nTP4hebcN5DS0LK/66n0rzukBSmxmT7PF3M0cqDoz5UGae3B0yyNG61Qu6chy4iowtCnpymY9m54Ri5YW56XVMcwLMugbgiB16prewKFS5W5mXPmCSt+lDGfuu3S/2zzbvEvfnfxKr+AcNWO55v/RYvDm4hbtygPfiCKbzK9D5DwAxC/yLaETWpIgm37DaI+mg/86X5EcR5kKPe/pqTiU8K79yHvE+bcsBrItyr2qKEfU2F+jW/xkINRp2++8+YRXYFI5tAymBN0AuZg+0BKxhN4wYi2zWIFsr+Ujv+p+f2K4hXMh0k6qco/dOfPGZVdiDoh8Gi2yX03Oc559yElV4GiI6m8nEe9XIIAlDZnvIq24ZwbIYK7Y3wn5QOEcdKi4RtQm38dNvMfJItf+VJ/dFOHxL3iwquBNH9YFGezcQPtQ35iZFdXO4BvJtN1iLoWW8Q8esi5aD0z0Yief+x74TPEBkupBfzNAQs=
+ properties :
+  width : 466
+  height : 661
+  widthClient : 464
+  heightClient : 629
+  widthMin : 334
+  heightMin : 298
+ controls :
+  -
+    name : COMBO_PROFILS
+    identifier : 0x23e8acc9051ae35f
+    internal_properties : CAAAAAgAAABDA93pHZxKlRcKuyrPns3jkPLLVuPH7Hdu/Ie7N4kpvo3mfxgx5QlxNe2P6XDhO0eOgW2CXJgrDJLVTfHtVIm+vxcP++vvZZ303vesYaCq0TTv8isaRSr0YF2fTmgpjwvckjoOhUJ0UIGc9K79ZaWGQRuAIx4WjqeJ9mqq5YUUkFuKGR2dFKXl+Gc71nrOkxpeCX0EqdGBa2SooYzh+Ffta9zjbG7msIvwJTq2xbpMGDrlVEi6I5D1nQFzQAj+bYIHntkOSaZ+Zoofc8gEJ9rxW9SLxOax6jrP8POVSK2WSAWuYfoCcZG4tNGTidFux5Lveb+meM5HNvdCssjIZvnlwomHDhL9jOwxE/2Lc/v1qUQdIkl487H/2gLLsh1UO1kmCtIUecWqEao2IAjRm5QczQo1XP/kUivpEE6CKt2PsByezeEhWWfEoudVMSkgFbK1ubEDD6v7t5uaEpZYAAx8gLZiwkkBvBRH1EpqY32uFFShUBJMacuSBHzCC77OHQERVVdp8OPk6e0bPUqBkIlxAfh3GjERlX72gW6YqOqPx5U6ezfYOutimc1kinKwGfvgrpvwIcZCw3wmsswEC9+DM7FoReqcrJoHidnMsMh8RDkpM1NAZkMbfgRwrROFCqz5TsIWPXWkAs8OaqneHBqmJMxyhHq5ZNPfynXzxg1ra5hbjqmVEr1llbWkpweWC0stvqk76OnJZSd41vCh5Qw8E3pJsEP5OMfe1w92GPIuad6ggNB9qbI5CCSpHZNHsrUftVj8wsGys5HVI1oFFnokV8h8IhN84UnF0N85tjd9FxDDA29UHc4xu5VbyDxiPlr0I5zoQCUtn0C11SWdMo5Y+Yyk1aKSWbJZzWyOTXlRqmQMpViNq6VIws8Pxoh6YtI6dB+CmYrd+L8wG45Lo02LhlnlA6NKmS2Sd7Cs1/CWJb8wEcqyn7jsuHNzncPsPO4GuEo7FZbkHL28tX9pkn5xkqx4Bq3p/1JL8wnPURTxbsiXUTLxi5SJP53Ngl0PdsbO/VnDr1se0XTs/nlNd1O/gfFb+u42BMF57kQX4CxK7AmpX3kJGOovjzaT6tOXtYjrmFwYHqlM6BDflXCjYoA7BJ2Y8LxAGSAJdZOaQm3mGXwSNAyyKaFMq+cSvJxOM6peYmL2FCrY7sEqm9ClZRhdkIjwwojtddlxoJgcVmAmlxSzRf9DPjWhMzbNPUeYE8+kNgJT1RIZ5BeCsLRGHstNmmsMUGbYp0wwUybezgqAuiKYuSr5mRBxPCy4rcJE/EukcXPAoUsU7bP42SjHyty4dEJQqm63WnBBRrRTKyMKU+RLnerNdtAEAW2WDmD5nSnjrDivRFAVW7pzJGp2JTtGMGwcJDrU+b3/so1oIKxHp5kQFA75mmhltg0V8l98yxAJIY7MDl2Sl3MR+g+uB8iw7Rfst2JSDAcBGRitZz9QizNFCD1WgNPeIQJnH6PB58iex8sqZJ4f9XmrZutRPLuitrTOnDmZeIks05K4WKmg6BDItsUzB8lXcbNqe7yFl2tkwzBmgnWZ3y9fX2nmBGkKi1/hJrPleUyyUu6ShSNZhgt4TVCyKWfPA5wB+GfcD+AXnwMgmlc8VdpcwdOIu6g3LMJPI+loMPf54m95ceHSlC7Blep32pF2GmxLx6oyopIMpAAx2txflKkYht4SP6OS20VUWtKmEZ6z1zV62wtseVizAdGj4NSgrtZSTeNEsO9JgDfWP5BAJduLYvz5IJF05Dql1WxPwhYJuITNaCuiBMJKKfhRmcEFUh9XsFJz6FE1WBeGjLXpOtesxaLaA9yQqsJWzyixWwHr
+    properties :
+     x : 12
+     y : 61
+     width : 380
+     height : 29
+    input :
+     internal_properties : CAAAAAgAAABOiA2J3FsoMnVrp8svpqZ+eIKauF/atPD5+z1tPGRfE2gGFXXb+Py33UyoHYuzEUmvAqErHi4ulCwQNZDaK/OhmR3kUyxF3UH5/dVSXVDlkQs73EzuPcODnC78dKD5DT8pPuHdOJWyufREtYJ3VqJoXsQgaAVsQ/2q1pPT+G+bkMaPkPw/WyQ+WLORJ9lAtnUc1kqesoYcEQcAtuZGTRp0jAAASYOHf5+sBF3dPFY0tJ+EFttGnUgzv/hX8bL/kOu4ucHc2DCbxoIQK49gmEkz0bwl3mrb5Oox1bIdHbmD4WYVFgBQ2fCI1vqucXFdQVa9OycsNM/6iMu7fVmtgo/VnTN0v482Nbk6/3pLdbd9QZ4pIuxnqKnrBUSkCKE9gnnEzSkYjWhOK8VXDVRw6WZVfR7mNxdQ/t5vyKtMu5YEN0Vj3u3Cj5iBLN6jX+mOb+RSTARR6mLB0nBgJCE67rvgkLuck7YDnF/Z8TGgr3vOOfr02SSj6zvVtUSjF4v+MlGAsmH2nojAbLNsTCC9vGNITZXDcXjNWTBL/Ev08goZAjTXse41XGyVjKzYzw/HFaWqViX2P+esCuQ=
+     type : 2
+    dropdown :
+     internal_properties : CAAAAAgAAAAQOnVzxd4HjcYDOK5DKdWPQoILqx561shbbFUCX9B5/JSPhV1NBjZFa8FK84uTQU6498AlvESaNjHwBimSPwRmIqSx4nTnsR7KNc8ssgoBjYI6SGL7ef4AxJ8DSQW+KAQTKVhRySoFriR0w3E+b2TqdIN/CRAyiYZBxYmjSuI1/FEJ0I3x7egvn8zi9nS1rX8gtatbmWTnOut9j0oohuOQ2Kne3VXPmdGLXjkPGbov1CHWL7S6MmiX7oL/b4lW6/rlssDilJirLYgE6YooAPP3rpMKaf3jQJxKIjq/REC5KsmOwxZyrYVSi9A5wF4vk0ESCR88DyDmyrrjN0Uy5/Z8bFBqbDgQ8iiaj69xFBFcNEvS7VyRlmYcgHI4elBYmprTsExa/5hv5I1Q7rk5p0HLq6RNINorVl7eQbuG1Dl4MgeYwo1Zqi4ncZa8S7gWXV8XtbKY7gLxtPFQTTpa6dnHwStfZaWc0ZCqfRZptJCg9A0Oqjy2WbVpeRgPsIO5kjJU0Dadoc3g9IbNujdhd+wwfhUsI3XzLOm+3a48Ak/TvcC1GmkrOIME3pkH+R9w0AM/5mNm5S1SEnwU3v3Zf+4AUT5UlhV/hNs/MiTCBM4xboXClneoAYS4AydHYmU3RNUhErVKdxUP6UMLtDA3iSETBkyKV2zc+zImHo/3QcNabnAZsz8OHAXmMZS8SKIwWz91ijCXtRdMKQpZTrmlRbKlO4cfwqfqVmaAD/fxc4itHmGS0QT4mIJjlqpHCrzwj96sLlTgJ1a3+jct7Lc=
+     type : 7
+    type : 14
+    code_elements :
+     type_code : 23
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        type : 35
+        enabled : false
+      -
+        code : |1-
+         
+        type : 15
+      -
+        code : |1-
+         
+        type : 16
+      -
+        code : |1+
+         gstConfigurationFTP.gsProfil = COMBO_PROFILS
+         HLitRecherchePremier(CONNECT,Libelle,gstConfigurationFTP.gsProfil)
+         si HTrouve(CONNECT) alors
+         	// On reprend les paramètres existants
+         	RemplirChamps()
+         SINON
+         	// Il s'agit d'un nouveau profil, on met les champs à vide
+         	ViderChamps()
+         FIN
+         
+        type : 33
+      -
+        code : |1-
+         
+        type : 17
+  -
+    name : SAI_ADRESSE_SERVEUR
+    identifier : 0x23e8acc9051be35f
+    internal_properties : CAAAAAgAAAA3ufnOoKoGLvr4Lk9MKJ34KFNaqSjIQA6nuZxnxjNqn+4QEWmTfpEPILDDGQm4fRtEvX5BitMu12U9ZS+mbLETBTCBwvV/alPRMF5QxfT7vTnUpq9l3N0v5d7HsDaQn1YtcxQg5NxVX1oHZKeKD1Eo3THe9BVeygyppEg3hzqwo76b/LUONQiBfUTm/U1Ts5HW9WAc9rzeF0TqlSN/l0UXvSMeuqyR5cQjf6hxm5l7nmMyNAu9peVo9BgSdfZlUldJRRizxFlw1uajiHyZeJHoJSIu/SktBw/HbmOl5++WxH699O/uG3b17vmHrImyZraOizOPoX65rvJTtQGadU9E1MN22hiVRH2IE4My4tcQ2ZZ6TfOSvUlEX6nRdPLfSibvr3i33WwIRsqvUGYyOYk25G6/SQJUOr2OjM2uw84If7G63b1gKhtUirLS0QqvEG3xuUOIZqjmC9SfKq3etngqahSPOD39NvDcWrzkFCkcPG7FS1j2jZbumJIpJrqplfxboMg4tjn4OPRn2tiNvAW3Yec10PjXVuwDNNobiktRqLyyNtUzIyImymAmlBpqFgC3lHUOiEgRa4bV69q8gG6WWmSwlIeKtBh05NDzV/fpv35K1/3kCzV8XTRdnvA1dCnUFFprRLk9Z15Ur0XcW6RYezKISKEB5wRsNAiX4I/We8Q4+44iFwt1mwwD+tJGuMPhqRmIUn2byKqw6uPH0S2u7aLA9gPY6LV66UaQTGf4Np6hGsg+/BCC8ClsCR5OGePi36W7rjVO1o6jW01X5iKJQ4oagNRrF1+jQK1XwoDuR7iklwXn4hC27YI4K7xVhgxwmUSOD0+q9gQ2JhT0BcuWtGvcGlZnXxxFGrGDJGnDLozkd6djc0whIwGa4hjHVCqu6XT07Qz6DmNCj/8FDoeGFzlik6IWl4YxKwcwwgU7XuXCurDZ9Z1pfcnTO6BbROYw+1lcT/tF2gTHBYx9S2BBXc/U6Sme5quUnrZEbghDA8G1+XQeuomzzoVyVPFznMcGzi4R0uJ9gzZE4qM9P23d+rDSWgaWT9f+CCxIHqSyPgFW7pUpsaumh1pCD/yrxZAWiSOXidBpRlea+6t8kS6LF7NiPMfav9VV72tik4iLie6zVoRK9r+az6tlGnMpDfoF7QGCNf3m/jtx8q/XgFs34r6/mQQ+zEsNpulzJWMPMSbqhvgA9h1EhJ5NLZttQDsgl39pN3cI5efml6HP44FFwLQ/Ipntnns/CZ+oPLBuoTG9CKQJe5bW+xUndvkYs7Dq1I1t5AzS35ygFQoWT7kTIqnbnOidWCkF2+tonX4LwnEMqa1fU7krrGKFXpUkCzZ/bgoVySD6xksE0/7YpWI1o2iteCLDmHH9UR+fhwBR6Fa8GVOtP4VH5FJN8D4AFBHjnmNcxOi9c5A6jFCMvU61hvV65eKAmF6T/kgmbtLTFKcSkxYEVZ+tunRJErDztHN12X2o6aikozKJOBc+0hoFbOyzLCXgPgAmMcBigRvliHO6baDTtYLm02d2SKw=
+    properties :
+     x : 14
+     y : 95
+     width : 440
+     height : 40
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1-
+         
+        type : 15
+      -
+        code : |1-
+         
+        type : 16
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        code : |1-
+         
+        type : 17
+  -
+    name : INT_ANONYME
+    identifier : 0x23e8acc9051ce35f
+    internal_properties : CAAAAAgAAADlNnkqYCiHI7kYDxcvTWCnUeVYw1olWroOgJrWwNP+nhstacIfLnVGhdDUPTjw9NC5tnKrt0/vrmYKG8/9re71UAhNSERQXTm04fM2y80hRn9xROaR/ptRSNmirSkiTEDl8mHZS6tWlA3J1Sqlca56ulWIH+oITz5/XkoYVqsZ9LB230T6NOTXOZPWoO4ydaA2f0Mv4oKkMjoIyH8UameeWhGmEqlnTv0sza2EWysmjPl5G33quV5B9Z3rRT2PavI72rpUCIu/NWTz9OLWirCOqJEv0qdxWXUw9vmggPQxa4XPmz4X2ReR0ANwcbDUop5F+Qvjo0HhL7u5DX5FZUwt0Eaiy8XHR7rmM0Rw0Fr69sjS9wArPrS/HWqTHoqj4081jC/Smz59iKCVxGJyrwvHbh09kZaJZCtT5zHIJ4viUgMr4iAa3fb8o8hsFhfFNfEKm+kw4ePC6wuQINYg7l91JnbVOJdSHiTLACdrAxJ5isrunl9YschG/x+8YcigS1U0fTbvo5aR02pm/0NyQzqHRI8Jth+dZMBbrj1785KRBxvXZSliFMf9R+aSQUvv0HD4NyPC/HB9Fz43X3iAd2c2vF8YMl13DHgcGCIugH+ma+o9rl9EyBadd0y6Pj7Qzlia8u47UyAlKTEwV7ZgMpzl2m7Zg06LGJugbNfxhfRUGd7fPfSEZjfvnCr+uqY/h42Ovnw4wvSEP1nyXKSWVHEfAiS6B+PZrOdih3nE7aPNYCx5VgvE3bG+6kqwK579unY8qyPHrJOd+bfhhilr/XdoC0Hk3ls7vozS/qC6a5bqm/zqMlKmDCuiAUtCCXSOfptiPKrjx8ParE8Pz76+lzVNllPOlUGviBvv/N7UiE0aCoybwOb31rN6PXIUgqRabzo2PmuE89LLoRNUlVaEC8UJwMMIlitp2ET3Zuj0y0BQ1k8Qcz7tnkVuSGb/1hYjASCJn700doFHgLJdSZTFjsGDE/YMDSs5rahFzlpup3xMDXv+9RbbgdeqaK70NPYcIjfbFY2QJFZ8goYXhbRdGrgMz9j51VGi0c2J2hoa9sd1KcCkIcROb6V2wh9j8NDBWZM6w0Z8ArQCq90c/eBsKb8g24d+gEV0G094pBk9DnKpb1B9k7zWTr9TjH0ASvgiC3wvjt8g3wBV1101oz1rnGpzk6RZU62cH6Qn5bAw6oe7mOOLJh9WiD8sHvqUzLGbsKKeBjCax9wyXWVRZ1+BwWeRXOrgQXpCtn1gJci0LLD12VKCJ9AHFpu3qmUO9XZR
+    properties :
+     x : 14
+     y : 145
+     width : 323
+     height : 23
+    options :
+     -
+       internal_properties : CAAAAAgAAADBguG+1o3oM6Br2QEyjSkUG4q7avr6iYcfuEkeeOAfhAUpWMooSzZJUMSDfNIIaKV3MzLOkQc2igZZeKhsWVwRocBa5GToO2mY5xJ5KbPv2ZoQqIbHt+3/CPua6pSy5mZARYiDrNW/qcJfS0KdkNww0HRT66aKbuU+2NDAx33c7MlP
+    type : 5
+    controls : []
+    code_elements :
+     type_code : 5
+     p_codes :
+      -
+        code : |1-
+         
+        type : 15
+      -
+        code : |1-
+         
+        type : 16
+      -
+        code : |1+
+         SI INT_ANONYME alors
+         	NOM_MDP..ETat = Grisé
+         SINON
+         	NOM_MDP..ETat = Actif
+         FIN
+         
+        type : 17
+  -
+    name : SAI_NOM_UTILISATEUR
+    identifier : 0x23e8acc9051de35f
+    internal_properties : CAAAAAgAAAAd79fFpR1S9UarLViicwuj4X2Fb4M8RKeI6KHoNkzpZS0B2GFBdchE2QXK9YMH2RxXnwUat1dXa84c2Oi6Mv5hPfUiBywfgQjD1m0FQcJkHcw6xzHkyESTWLQO2Qb9MRenjj03Qf+0DNAUQPYDiUe+q+gjhJkrFZ5peIy+Z8eaZdvAeiUe79QA+4/Rs+M+fxoipjjNQWqM2vPak19o9ADa3+cpmnVLEH9jHjmrNolRBn1qCQ6Kc1SwnA56WnojJxoJYtQv9oPWbCV8b0Ye/LHwB6oL/f28AobXt5I7NYvl/CUx8e/+1qtOLqdMr97pbHgfZOkGaCZ9fQNt5Kvg1ZYYyTwmZ66pnNAqEiZ8GzovNMs+eZuuThvzW5e2kMGEGv63cDmD8zDNz3ndOcMQZ5HZ/p8iARYFOdPE0uYBN9P/aJRnjkKJCbQg1ztOrkrn3jPd7kJLN8Vt/t+KSugaPFhJOkbMy7G0ZfcpbPu3M3a665Zx+7Yq/2OTMHrvTx0jqm+xlAmJyKptLq4XBQt7RXU52w2xmY95cNWEZFO8m0OfXUgFBOCo+0NMpgg7QXHNqxesd+2OQmHVdoi9WNfrHGk7j19MFD5H4VMzpN6QMIsSB2txqjGC37wPW2pPRTLMLc/g/9wEPw5v51e4q5WtYCAASc3RRsMON0wXoX2LHRJMBJgDFVEXfWbMvCld8gFNtlRlQkwZQc6tBclakxvrRdq2gFWT9HuBTQXKhXcOwvIPh8hEC1HocAisO1fT6lihtTfGMp8h3h1ISCSHWZRkKpLp7AhXT4KAovb753r5+dXCAQepNxN+s8PjZhfRa5dkLUofqgZaXzoaruuBb6LXy97MPVQQ4La5N4jm1JJCGocUWLLOag3jX0lF2kS/l+butrWUfpr/izsbMqRxdz/q50avwuue6CWXTiEvPGdbAN6akbKxrJDkc0JdcKSa5ukPc0NLvBGtZ1PDblEIRfgC0O1WXl5llckD7HbV4cYgAc3ZCICcNKPbv46vvuJkEKn6eFUCeiVo2GvpD6fGrTejQM3B4AqdOu9amVfivQabo32smE82vKzSTHrf4plAiK99NJjUUUvB/nAGQl0e/B9r3Z3zn1L3f2t7Zsbyl8w2KGhzGkEXYudsWZYgYpAqvxG8ZWK+EWXUTwGvAti9lYd7FeM7G6d37NpngwHyE8SlNRQ2AMrJ20Gwyx+IQrsT2ZrhEmOEDMlZH2C370W7LfH4YrrRF3Pfmk9CHrDTMyBB5PXEZTDtNMZGFAIm18mJmefINaHJXAcXL6F5BDVegOFafF+ukY7M1+uY2qPGp/xrW0zGmyYytCHoUvN+50FZ9hhs5yGLDa3QS4sLIwwts53apJ9+IClcY7nD7w6+c4IinXpwAolKJFTpLXwNGzm7U0ObWM3hNDNn8aUqyitEBKKXJKJfA/LSnfvgBbwq4td99UOtup0TdoOjI/EWIkyuaV6l7ElbPbbDWr3MNyH75v6CRV/cZDwSEXJzCtcrQRDM22PT9sKgaeQvvEw3l1FiU9+U1QLAqQNWTWrMNwSCjTty7AoW+dPOPkqYvacZtOrTrL2rbTyfCJdzEXY=
+    properties :
+     x : 14
+     y : 174
+     width : 440
+     height : 40
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1-
+         
+        type : 15
+      -
+        code : |1-
+         
+        type : 16
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        code : |1-
+         
+        type : 17
+  -
+    name : SAI_MDP
+    identifier : 0x23e8acc9051ee35f
+    internal_properties : CAAAAAgAAAD7CHd2LX1SuqRMgGnctdrpL/88bfjRBNgY9sZgLrtYCm5RClc4H5d1EKjiNQPuSlAEjhV5Rrt6+zeoTzwCUh4YOcCWvWcqhcj1pi7ifb7cdRAmsBB6RwKr7OVOmHdH5/XtX7NN1i64LF9jP3yg6TkAWsauiU4WHm3FeEhCXrAguPVrRX0aNm3hveyPKlI0dc7UKMbkcGpwml1C0bsUbrmCuOctllRuT04hH0iwnrgsMcgKgrYJ/Zd10F5vFnpuxeBg99iPXH8tSaMk0b8vu+UEijkPb8xJwfl6QKSGvv0oPEQwsOKcKxeLHTPtoKJcgAG4nvxQ2hUhGiuWHdww/cZ0d2bmFPOJfWAd4NqPMDLpAthApkaJrBeHBH+LGf+tBlD8as9JHPAYtH4Wp1XHudYxpGH+eV3I2UmtYv9eIvEA51c3zWJAr904j1IIz5WIej52uQ5CXhPsvT82Qpb6IHxCKuqeMT7icOpH/DI97lwoCNSP/WFs5YxsLeaTjwUPo0JWp4O520oniuOYnQS3JZlNPKbPoLAP2pfbLhCISoiH0vNU+kVcbbPW+CCwAKrGjp+qh9Gw3BEUcSRsY6jxn0m4VgEN0ai2lpRd1YQqqAxpo8bV9LRhbX9YGIgjRZsPc5MobXYfXWzyZLgCT/4qk+EUuoiAOXv9eXkHa6njcPIuRchAgYqpR3WwWjQxNIjPc3nZaenEptzCfjruq2agAGVA1Jy7+xZ2N7pscnvJo015ygrQi2PULMFHbf4XK6fizNXv9hAVRo4OHaH8V+/m+CDqtfq9VP1CSJFTLzUuu173lyuamaruc71yUtZNJRiDNQM9HNiOWoySaK0pY7mTwLI5Jk7YJ5iQR+DbdTya4tdsrhkh51beqeYOLyGGIFBam5Emx/ItTajam559T76T3bjLoVSbMWqdswuipy/qGrsUvoTYGR/3YTcn1n1TJ7VHixRlTZfhQLxm6EGiCA8jvRw2zUN5Dc1tmF9u1KrehQJ2qWzysS56egafAE3mvDdybyFY1zayfXF+vVPRh9wz2qbBTpXxIzINRSBgnCO6SrcKQrhoPmh6IpYbdD6SbqJQzkWlR4NUrR+FtOlleV8P3oPQpXV/uNkmvnPAVE91bUI0ytdincRuV0RaQKBHkTxp15Zf0MVTs3Cd4pp+qMO0tag3J/5E+B+pjw42X+UiloIqEyeGLj5j1p+/3ymhKw6dg8G6Jejo1vbihWGSrllcbc6B365jAbW1h4ozujuhvLxJgBLUOmSaRGetjHDDtAo6BsJoAwdWEgO6Rg1Y61+fUdVZKjE7430sscUHJy03CShfA/gOnIk7O2BnHdlR3T1/D0Se7o0n2UuOoNfICgMTVNe2K3nxZ/5rzL56anh3aC5f7+dwRLA611Z2XW8XjTBt2WzhcU33Z6ZeMh0b3G7C/8UPk72sKMkby9AkqHAASA5xk4AolhxviYUZzzxrze+Q8ykS0sefedYdm74gimvxY4IHiLlha3mDKN3XI41qOqhMrVdPQ2H8pBM1B7oV3hAhrPgSYDrK7gomMhnx
+    properties :
+     x : 14
+     y : 223
+     width : 440
+     height : 40
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        code : |1+
+         MoiMeme = gstConfigurationFTP.gsMDP_Utilisateur
+         
+        type : 14
+      -
+        code : |1-
+         
+        type : 15
+      -
+        code : |1-
+         
+        type : 16
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        code : |1-
+         
+        type : 17
+  -
+    name : BTN_SUPPRIMER
+    identifier : 0x23e8acc90522e35f
+    internal_properties : CAAAAAgAAAAydPyUEGCj3DD4T9f0LjHi4//jPafvLtPLOgEx1dPnW1W/GMluru867OnxD/m3gDZDP47fJtfhrnM3CJzKYVGlAhRAKXYskR3X4kjHqAuzjXFJ6/lRUmqAh+qoTxKNBulqkbT7ubceHYAVPHSDXrXCzJdZ9hFJ6FOh6IS09ay+tvCAVx9fsUdt0o3/Ta4ipt98gzNCF+v/d0pbEK5cX/Pl2+9lwCEwQtYLwfawARLCja1vJ5O/eM6CjDjxjgJkUk/l9RIoUWCAeUKIFODaVznZSsIwd+cW5h4T50qS8b3vHcDRcrEXKc6kNqjGqMLkpHsHspZ+R6FLJcg9lroY6+YuuYaRusekbJ3R9xM6MQuil4SwN2R/dkznM4FyH4EnwnLPdZdF0QCSvzDQj6Ay8LewTn6+yaOOtojcHARMF6s+5I2e5YS65kQZlhv3ZniTjKL0wMviDdF1ZTGEUPhN3KkQ/jBo7cI8eT19+VxB172L0V1zhBY5/qyhJhSrHcBPLX97hHUhFm3J7YK9MzgUB2XjpPdq1iyPA67O+PzVTBt5CB8XanwAIfUPkf2Ytv35v0x2h1PtqiwrS93nGBicFJfnDeOzIL+7qoqRHSGrf5TqvW94rv4WQ2m2hwz2kjdJ170fNzSdyRHHnsdFHqoF3UOKBtxi5OSQIzIt+1Il7HHqJgrCRe/5TTV1gcyZWOY2wMALXYEITCa/LUFvgwrOJhbRDiIVe4lTKnQMLAK6p3oTNeMWWUWSj+KMt0RaOUvKHlrZ2RVHvWxj8eWXDr9XZR15QyGPme4YqmMI+W4Bn0apvtoeXBwCsdtgD86pGJC4TguaSUPRv4gFYPBfpLwguZLl8gj6mUFAfRLJ/INl2yjMwF9QJb6DiQcDhox4z3QYdrRBjDRs4GKj57PoOTPHAblTm3LWjcJ8gXcK5dw/jwTLRLUHn2/K+kTDIhHpTwAdakPG0KqFGmZjQvNABD0pYI0ZWEDMAx2lEmm4XiV6qi9JMpBHnYt60kC01POxidcpEKa98/+SR1hbQ+Ij43WzBdAhISE=
+    properties :
+     x : 428
+     y : 63
+     width : 24
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        internal_properties : CAAAAAgAAAB5u2yn9wxJVhFq52jMxyY/0QuOzEY3JwuJsCtG6PUpqXv2uDjlgtVhErnvtmxSKzzhHPi0xtoJLX2kB7i1u1f7krrrfl5Day0HeeFvkxU5Sdiyi6LnBh2c148UT3SUJNcmcmYcW/VgXBKkRR4=
+        code : |1+
+         si COMBO_PROFILS="" retour
+         
+         si Ouinon(Non, ChaîneConstruit(<§$0004§>, COMBO_PROFILS)) = oui alors
+         	HLitRecherchePremier(CONNECT,Libelle,COMBO_PROFILS)
+         	si HTrouve(CONNECT) alors
+         		Hsupprime(CONNECT)
+         	FIN
+         	// On met à jour la combo
+         	ListeSupprimeTout(COMBO_PROFILS)
+         	InitComboProfils()
+         	
+         	// Et les champs
+         	HLitRecherchePremier(CONNECT,Libelle,COMBO_PROFILS)
+         	si HTrouve() alors
+         		// On reprend les paramètres existants
+         		RemplirChamps()
+         	SINON
+         		// Il s'agit d'un nouveau profil, on met les champs à vide
+         		ViderChamps()
+         	FIN
+         FIN
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_CONNEXION
+    identifier : 0x23e8acc90523e35f
+    internal_properties : CAAAAAgAAAAJPtsxgN600jpD909k77bqe0VA/AVmE8e93Y32I0BG2AKz8DV1I+WSwzJ6h2mjOEtYIqxGshAuGLWLFigUZ2mJKL8v+IVlC9S4TzQhzmc890hKLPYDVtz2504RsJcrlONeEnE6L+5wCErtEariIAQ2R0trhjZ34HCaGAFCYCA9l84s/aKUGPh0nrSp8pZOINk+3ILgldQ8u6/XGD6E2Q5i8pvcICY3Ij3P5OiTQPVst/VZXMO9jIobIFlHoMJjIUzazl92/kfrlv6+ZgNF6jL9Eta2iQv2vw55c7v/MAE4b4NjNfoi0SDZQ8a3VzOdra5xbBaMP2PdjtpXCyA1cs8ifLiC3g9EnMKzrPoKWTrQHI73fdwpIcf6jdJv1Y99PUestv9UkoS5aiZrJrYlCSPBuspWnnA7Y4Xh6/YOTJI9jCsyLlbW1ZrpubByfVWz6y1ArXfsThswJIPfeZAsMYK4PtBGPgs8KzVnyfPFFgMA8rsXfnrmBrWvIsDTXWgsJeq0JLcBp8QXJo9pbD590ngAlvPlx8diabetJ/BV5qJGYJZ9NDdWQyMNrG0aJRJJzgHPNJrhDZNA1UJadC1iMXPTp7UDBzH0QBpHFCNIsei53HcIRh9xiCo79vuzrubZf4GXpzXUZYCTXNY30ecqsl3RetBbdSrTwnFl4bvIWJSBKZ0GfalsNUWyqk1iJxby5Lg3aQOzJzbo8abnxg+meZZnXeORqg6cEFq/0z4xESiILS+cY7H946+SVM8rTiOR9BjjTMvsdlRIjnVS7ddwl03x5asHXcmwZRbrNandYBiSKRBKHQvW588fplhUZfYFQryONC0VAfmxugv6Oi/yckeHPlzg25Ldhc28eoUyf2OkGfAL8crdicpHzvOZtSkJlVrS7yjR5yTu5eSwFoQ9kgkLwrTmjZOaNMnwplbxLDoztQywJfvqACgLDOjLADCxZlREb5q3hnm6Kz2QysJI0d34LLWIxEXfF/xyTaS07zksk27Q51aKAlTGCXRUa7QJU90J0St8fi5SSdPaT9pVSUM+RaekmGV7Q0uPAAg=
+    properties :
+     x : 246
+     y : 594
+     width : 100
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1+
+         // Contrôle de saisie
+         si COMBO_PROFILS~="" alors 
+         	ToastAffiche(<§$0007§>,toastCourt,cvMilieu)
+         	RETOUR
+         FIN
+         si SAI_ADRESSE_SERVEUR~="" alors 
+         	ToastAffiche(<§$0006§>,toastCourt,cvMilieu)
+         	RETOUR
+         FIN
+         
+         // S'il s'agit d'une adresse IP alors
+         si Val(Remplace(SAI_ADRESSE_SERVEUR,".","0"))<>0 alors
+         	// On met en forme l'adresse IP du site FTP
+         	MiseEnFormeAdrIP()
+         FIN
+         
+         // On mémorise la configuration
+         MemoriserConfiguration()
+         
+         // On compare la configuration par rapport à la configuration précédente
+         SELON nComparaisonConfig()
+         	CAS 0	// Pas de modification
+         			// => donc rien à faire
+         	CAS 1   // Ajout
+         		Hajoute(CONNECT)
+         	CAS 2	// Modification
+         		EcranVersFichier()
+         		CONNECT.SécuritéConnexion= EnumérationDepuisValeur(ESecuriteConnexion,SEL_SECURITE,ESecuriteConnexion.NonSecurise)
+         		HModifie(CONNECT)
+         	
+         FIN // Fin selon
+         
+         // On sauvegarde le profil en cours
+         SauveParamètre("Profil", gstConfigurationFTP.gsProfil)
+         
+         // si un site FTP est précisé
+         si gstConfigurationFTP.gsAdresse_FTP <> "" alors 
+         	// On ouvre la connexion
+         	ConnexionSiteFTP()
+         	// On ferme la fenêtre si la connexion est effectuée
+         	si gstConnexionFTP.nIDConnexion<>-1 alors 
+         		// On passe à la fenêtre de transfert
+         		FEN_PRINCIPALE.VérifieConnexionTerminé()
+         		FEN_PRINCIPALE.LIB_Profil_courant..Visible = vrai
+         		FEN_PRINCIPALE.LIB_Profil_courant = "Profil courant : " + gPoliceGras(vrai) +COMBO_PROFILS..ValeurAffichée + gPoliceGras(faux)
+         		Ferme(FEN_CONNEXION)
+         	SINON
+         		// On indique la cause de non connexion
+         		Erreur(<§$0005§>, ErreurInfo(errRésumé))
+         	FIN
+         SINON
+         	// On informe l'utilisateur
+         	ToastAffiche(<§$0006§>,toastCourt,cvMilieu)
+         	RETOUR
+         FIN
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_ANNULER
+    identifier : 0x23e8acc90524e35f
+    internal_properties : CAAAAAgAAAArBGMSU/PH1oT6gbHDNO3OWzHXeW6kqV6OCeE7qDx2jofm1VYfsU9joHXMy1+BfZPD13onL8Cqm2wB0DAueAlLvrz0kCh5TstjfVC44780SdhX+qVLwGGr49zG8CK35N9JMCZDTCVQMubDK8lujOv4E04IPe7G2TyX0PqXqgL2iLxDDLUgnmEjzjc8h4XVqeUZKwrFaRUvj0dGPLat86OBs54jaMGzafJHzzWF/GAsT/b8cx3RYbX3bfyBymz0FicmGz6qiSZHria615fgJ5ZRSq5RhkSHSapi5AOTv35UgSqPY2GMb+QylqwD+XUoXWwL3mIUTkhRbIIFdTPRZDiOFWBwmO+nmlvBqHFYsoZTwjMnsYlWY14kuBvNF566Fv4MLR+kcWuvharG2RozDIZa/aUwcMEIj8ZFeY+MF1o/XAocH3BRnm/fNaC9998ZukxxPvMfshsPEara2MChfnxGyy5pbbjZhAni9/0cYki9u7c+Aa+J4u9xJSL7zl9KvQVRGnmqwE0b8SeTdX2Tof3yAJmbnkdb1wKBqNxCr8oIyKyqkUHF5FQmxGz133JkNBcyM7exrOQWnGT9t7hadi++oneHwNOxQ5L5DWiInLDWa6ztpxmsuFPGY1I6klHhSQNdZzvl2fsoKE/dvSSMzVOf1Oq9rIgglaWYo8vhHDmj+ktChA8AxpJyW2dJiXKReWWvOYK+jkcsgtThTTzykjSeSKq4AfNcMX77YsozsuYEJMht9nqTAKIcHhQkBobbDXtwPN3VVxQkMop+z31lakzHXNXPdh0ql3FYiu6S3i2aw84OeMj4giQizeKdtNo+FL+JtZjYD5tSm29eKvqExxM7rwp6cKSAT13uIyz8hqTDAbaKYFI+sd6WkL0D5b/3OSGVv+stF3HoQGZwH8/RJ/vIoAd5atKiQ8Go2B5Q7DccaU6kgXezK6XyPh7U5MOrFJyM6VfpsTy2FRkkQrfeujdHomQ4Dy0O2oHyBpwIFpWLQDCELmIxHSilnXg87uq211/UOFaLXkKVZWxLJxsY8FoHODg=
+    properties :
+     x : 352
+     y : 594
+     width : 100
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1+
+         // On ferme la fenêtre de connexion
+         gstConnexionFTP.nIDConnexion = -2
+         Ferme(FEN_CONNEXION)
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : SEL_SECURITE
+    identifier : 0x20a0f9cc23e5c19f
+    internal_properties : CAAAAAgAAADDR1QandAFaqVO/bbqw7Z198Vb9hUlWtkJXuT0nc3cEVTA+bibg6XrbvkNEyfoip+XF5YqHyVzb3Yhvtqi1yx91+cZ9gcmhSmu1XrgXdE4ClDs+k6ZgxXoBj1RVESnTTdLahe/eVg4RpGgVmkn4U6dtpcCRb85nPe/MIaz9z4DdaV9T3RDbCM/Na76NTpS55IFwjs8C9fVaTO8j61xpf13oxcpLcmGvQqbxsTBsAUJDY1RCzVbmjsAioUA/A/GNNV5DXormAfRYegp0PjNkyqPx8XyOSMpN/u1am+1URos1FMXi6whV/OCSnrQqSCQt+IgTth329fKuSvaXCCtY+uYjE4g/KwulMfE/FAc1nm4/4aXWx9/JP6QUOdn05sWvoxWFg7elRsqQbBoVAPSC2rOQsI8RuqoHDUYoP5am/Qidf8YXKCCbitpyJHw9EsANg8G+4rQoedjry7SJAV9FP4Y97az/FzcGYNkmlbqAXidtHNraCgPvnCZMa2mH9SyGb3aFSb7SaCrOQoE1xmtpSf+58Qxfevau7ffcdVXUqsDyzoI8aYTyL0KJagakFZlIuviKpO2iJT7VO4T4YSOLEYODjjZ7xoyPgjPeB4P8OWLXJNDJ91/3O0vzuWDXfcdw/UvKRAMRtNuCV0qH4d5M3BpnLwJsANd0ZMUeIZMtVtIVHH0qUzGRgHF8YK758MY8qLqfKMg9fgFBQgfSi5pMXesksw6YmGDapkb1SjqOxqVCUyayZoK9Q0aJlZGtXBdxHyXTbOXoGCDH5z2V7EwMzHVd1lcAg7w8YZnO+z4mr77ZElcZtE1cP5lIixIDStdjXTVL6pMRS6mVVE2Utml6a58BRVQzYMwZr7Knad8sOHZ+82Thx7v2cD46+8VC6ZPzjsz9CMcK4hL8wSb/e1DDETov8zho2ApkOSU8mxzkn8TjI7PsvPa3BzEOsfSieU9MWd8VvQvlPF9820nBQWU4Md7zELxNcCHszqv+tIDtlylIBBxrOBpqy83j7X4UjMPHdEBr9avSRkNQvca/guyxcivdENptVIvesvACvWc4PsKXHrWICpYV15tuBX/rFtZM/kPJxR1y90yOAyPYNB8C2DfSJ+SljzlV5U18uyW/cPPZ0kLB1lO1u5jJdB1YDfFeH5Ddz1i5Yj9O/9ZzsFkOfcMUfJCLj/zSWOwNJFDrjPLfQ+Z5S4w3BtCgfwBZuZo8lGfDd1ud1o1cJfiIu83RQsgtjpvS0lRYHn5N2joMFc=
+    properties :
+     x : 20
+     y : 276
+     width : 346
+     height : 77
+    options :
+     -
+       internal_properties : CAAAAAgAAACF5/PLh2jMZ83qU0qDO8TZZm8l75dBJCetKai5l00JwfuDFzCiWF2Sey1p5oOY/bZVw3WZUdsxk+8h/QUqgN+3N/SCWu+pjttl58lNnsN/XIvDA6N/r1TMWdfqWL64GD4wGtxrpCWpeuI9nkyAMniXv3C4KnyXRvZLMnP4BDPbvuy7Ym8ref4=
+     -
+       internal_properties : CAAAAAgAAAAqfNSaBoQH6OBEc3NLVLGrTO6xgm3rVXqKurxQiVf8WGurahr4ArJ+/feYIjgR8WNVKdsHen/cuq58y0Z97mlIS6lxqGpgcQYd9zVGvq+QS7xqxv8mG+kJZtFqderQu2fXK6ENOnjBeuiy4QZ+eHIUMyi+i7Vyh+B7ynpyfQexAuM/+iWptxYrN4a9TO7BUJSzmaK7iw==
+     -
+       internal_properties : CAAAAAgAAACKnHS6JiTniAAk05OrtJFLbM6lUoOiJy5OenhmW/tkOF1bjNLG2AaQm0PIvM69ra+3SRkLWDVguExQs6Db8kF4if13gBVqhRQ3Tzqn3Zr3PpFNEeQR1h7KZxJv7nk7Fp7MHnR+aS96o8HLDtcV06HXdOPh4GCNnPVMGzezWDpEtBfrWkWJl/YL1+YdLI4h8DTTuUIbKw==
+     -
+       internal_properties : CAAAAAgAAAAEvyRyodaZ41DE5lDOolvxaBYCKKpyHIaD9wK/VviGYiqaWaHIEqtK0e7OqbH/NZBY1BHxBIw8WV+oiYwcZt2vP1He0tYTsKzoYLtBc+iMljSlEP85BGXSkO9epnMzraCfHoulSXE9NcD+F1XHxxKbZwFAHwhpmbH7dkRtvvq39Dg5r8YVpp5bI3Qjz1EixHidZsVkv9Q=
+    type : 6
+    controls : []
+    code_elements :
+     type_code : 6
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1+
+         CONNECT.TypeTransfert = SEL_TRANSFERT
+        type : 17
+  -
+    name : INT_IGNORER_ERREURS
+    identifier : 0x20c8cb6030c978a1
+    internal_properties : CAAAAAgAAACP+FE4IqmVbUs470zsEAl81gj762eZTnD0Vhm5QWOQUWgAriS/tJYRJtt5d7S9Uhz5s6BpnRCGpU7LIcSBZaxl8QBpWSgs/vpCEHGG/2xz1QwZ11uYEhkfUVM+fdfYR/8Zw43WlYtYDG7JGG/GHWKn1gi6YQFUTCctySnmrSY7WutXbzVctXAh0UMKTjkANjXPWViDO0xjoSFEZDUdhMz5wmUYbQbFxqCWvUNcPlNfhlF6QVtmUMrdow2PjcJf7138/2O8v8pSMjix5p6Q3h4i4AMYRk+oP08XL4r50znl3ANjC+KnMHObSJVpw9hTMs08WRlpXGeXrTzsewSce1oNVq+xQX/ZlutmkKlZR4siXAPKCuI1d26dxwP8pIqNqzfsUW7i+YpZoXwwCJeN8XQ5Yh0LXtNmKoFSC0HHbjpHv+zlRAeQf3lQ75Pjt5YNktjUd70dgQN+OtS0+QXiLhpNdEh/NRnEqSzdfxeuCRnJJYiZixK16qjH572cncYtX5VV+VOqpxHfEPOgPjBq2t6+Y8CpvZjTVZsGoan7NU8AjOojQO1IejGzT+PG7o6xXRUA4pxr76IpK5BRZdoyuhmoFOEFQPbtQTw8ekwmj1dIeoWh8NijDnLrHWUP4Uv1iUnhebX4EkfACIFN/t5bQVzkeZhvzSHH7n1PKtZSjYUzuauleO1dQgKAAGEP9Ohz3x4aGLfgPVBx6czD62/muIuw5lCGnrpqGwgUzpdDtE8zl8ZUcyRqo5nuK0cv9K/vUjazIlkNyOZPqLHLdGSv1H4gwypz29KI4q5Er/ViWacf3SzXKmXTU3Be6/zwN2RP/PtfIwby6Lmopo9MjfU9FZBL7CUOqL8CNYcROPqxVSRUsMfR/HnrpTjbr4rX0uQW5ZS0HB4+LK1/rvFS/jXgMbc9EmChAW6Po+JEw72KUYZCLdOUz0JxH+gPi388kj5YSlMiaCWf/sW6p385EDhdj67adJPhSv2vHvMwXVn+M4PVnR2ledME/8sQlTbRqNki+kgCfgPriDSc1jq0xiueNO5XmgkIo4DwMyaVtf1d+gkkZV/zQiKqJbZOq5x4sl8oTpFjfaCILjFS5njX8L4FvHcpKCvwMedZGWt2DZnwrK34Cvg8waxs2iIIZcl500gzAZ0r7X3KsI6Hjl5Bxraw3Nxh67P8q/7Ihs2gzPHEncjuBWkGwjGwx7jSvn2aWxy7
+    properties :
+     x : 20
+     y : 359
+     width : 346
+     height : 23
+    options :
+     -
+       internal_properties : CAAAAAgAAAAs9CTgrCavaLP5MLMTkpN4PeYc6Sbh07kNTsU78g+19M++9hoSmlvSt4KAZ1W4ClqYyaxV8U532XfRMkO6GTuXC2dSqt/nRL+9HXVZBIV0gUcujRZoK4VIOArJZECp1li5v0UYiZ+CejHW7jGXMlxvHGt/ltYYV3So1qTeW6FqH3IWxfubdHa5TcF5sALhknkaDzcmLUNcy8VcVOgbBrEvIuwE9ZMd/gb8
+    type : 5
+    controls : []
+    code_elements :
+     type_code : 5
+     p_codes : []
+  -
+    name : BTN_NOUVEAU
+    identifier : 0x260a4ab2021bebb2
+    internal_properties : CAAAAAgAAAAsPUQlJUJeo6XI388UQ6Muo7fVN+KwriTlMIWFUY0toVudfwQnqJC5aPvfRp2BZjoHECQYiAf0No+ojlIhwsYVN7gvFxc6oLKEfSuFmugIWklCQn2juLcGRUs8iys+2axwZRgNuIasvqPJwb9je+RHbP2dFrgMn/lhc2/7/+J4xWVSliFplaFOI5cQJ9p1/0aRFHv6qnIGiFmIYjqoQRPj59efwyrLfjHuhwhET4tZ4khWAdTL6XDWkx/EOw483jLUX2jfPOlg2OMJRGSQ5BUjiiyOR4mSEIXSLu6H7uzbtdY5/St4t3c9MNiuB3caDyB30iSDBC7EerBoarryGMUK3vc3iSl+1pia8hCgaJH2KTmQizrfc6qihw325ev6jk9Pxw8hmYtENw4Y5lAZvqFEAP7049hxB57glxaa/X2bJBWEHmrs9jKIck1EyeIgcLglAP0UzZgy6KRXPFLaOaLahhyWBusicE6/b8wm8lHHThlrqO5n2JMuwZgdEMwMfpFJ7ypx6hrPYzp/xsz/y2f/4lI1dPad2BTcujFez/A4PcL218WSWt9d8ERQJlrs0J4cIivFI5XMK/y12Drd3f4hZrq5+hLchaxFuGAr4ZATHESoZA7ckaifSIZV4IyJBA0j/k2ce4Dm39lSR/pErMkl+3/tOHnMekjSBJfOZAyLrWb733XKLdtSW8omFBfrR4B5Kg1kESRKK57OLjrx1jgLw2PmWyi3JjCgp9u5Pi5A5FjEla3KNhw/h4lQsu33wcB1Zh4EsYlIq0bgrLk9MVdnjpCq7zrkJGb/oRZuUyIqWJQORGLcV8pwOUqRFVFb24PxWunXNFujmhBKtBEo0J8EC/B7TyK8TQCilF9VtgftvWxNv5Jud0w0JvoRnTuj6dpZ6jON+JsBit+MIGsIanTYIZDbCFWtS1Y8vW85lK1txu0NyiQqs6AK/OVC3WEeFh4xnmSYOg1vc2uMbaMkH2RXhHUtNu+yMMXNea1ZTlExP71WPZudYM7TLLX4wOGRfukrUtPnwFhzuKz4SrH9gTs=
+    properties :
+     x : 398
+     y : 63
+     width : 24
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1-
+         // On vide les champs correspondant à la configuration
+         ViderChamps()
+         
+         ListeAjoute(COMBO_PROFILS, "Nom du profil")
+         ListeSelectPlus(COMBO_PROFILS, COMBO_PROFILS..Occurrence)
+         RepriseSaisie(SAI_ADRESSE_SERVEUR)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : TIR_Parametre_avance
+    identifier : 0x260d2e0701a0ac5a
+    internal_properties : CAAAAAgAAAAZdEL90Xp2jHvX3viq8leCVo/H04OFzW2UMOJw951V0SlleMld2qghMws4e3Ve0p6jGAtlpAv2rmyZL9H/v8vSWbTnVN+zwq4hU0SyDCzJ2da/TtJw5xoMAjnleQonhsnHFLu9Y9h3MTLiq5zAkAe1bncHlHesN8lSFAF5Qh/XEuLpMSNKWIvKRLfGWKJUir0QOSQHPAtUA50p4iRxHj1dK36/9740V69s7aUYVpGi4zDbjGpG6MZbB7sJf6IWS2Bi2Yhp0x75InrAK0zSxEPx+1S8HIwqSLGfcO5xP/Cr+V1O2XMlJNW5mnz7KrUigu3JDstPqPGoK6Hu3iOEdY0JaKuEoXWYDPTO36rlGY4rOt2cea9IAftbISjQzTTTqrfj6N/wuXm0JCidBEcHwIQbj3Qrg14Qy3OAyuikb66Aq1gvyKSWNKxAXj2kF9sPnJo2q8yEvA==
+    properties :
+     x : 14
+     y : 389
+     width : 438
+     height : 193
+    controls :
+     -
+       name : INTER_AVANCE
+       identifier : 0x260d2e0701a3ac5a
+       internal_properties : CAAAAAgAAAAEDYv2yRixjQiJTxQo7exf5U5a35uam0zBcyJCIdl8RDrOTLFKFi9Jr+A+oBZD9bvxnFS9LMmbW6ARWOME0fYAnHS1lpeOyzLYXR28QZBhS+LOma4lxHSBtiZvNqoxEzNEY1OkbgOTWsggO15TYNImo70og8RwVZt+uHOGChIXjakT61hoMT3XoQr2FFvLW1ZSw7nArpz3sSzNbqzFHFgj0jT3xJZy9OncqgNzC3ZWNI7l+mVNXHxxwrvqHBIQUVCSBHqAZwgd1oMUlY+QxAYNroGRUko3i+24H6W6SN9gKpPuTnQ1arT4ZDlI3Ktd9oLSEiUv2R4W4uQ3W7IvS0lcUhz+IqGSAF3T8a6lTB0mcpptq62lPO9NXZy+exzx7DcQPwl4CmAJejM0f8JlpHJZCFkgtrVbl7NqEN/rh+7OmvONZjVSi90EZPKQra2IKrsEh7z9Mmi7u6AqI1IDxtFWtzSrQRYTvMQybXUOCxdZmv/5nvOah5Zp3VaBx1jq2TqWw8ne3dmxH8l9Z2xtyZCiAgzrqbuCCJ2uj4Z5leQMrgnyXlHUU3QkPmrXKxQgK8ZD95lXfCeMAxURHRSSJJ/ppY0ePokzG6jAQdtIR2xnKa2AdPjhdkL4bB3epGkvAxwIHjPaMRFzBT/bxGFNGMfireglczbMS4pSda5A8BHT/m0PYqzREbDmX/4DB8A7O29nZSgvS/9p/j43L61W/gPyjePFZy5Ishe3cSDT1jPP6JJlr2gxujmyNqp7x7trfCr/VobTMpR8+bZVcOEZnH1lDtcg/ua+Twg0FLr28M/f1r37BnXx2kUci5D3gTgF8dL6gMOC+PY0anPJL9DXJCV8QDwJ4bkGHZaRXs+kL3jiY0RufDhyKBF3XelJZ3JknzNWVRNew8r4Jx7N8mfOAXa1GSbq44mUO36CkfmjSYQWErHByyI67JnJqvevmtUgnbcLiTrmV2WzlXXB7lpAFoSwT+BKhaMcGn+x8jnjHhiHySWSymN1Fj4qBbIVPgFS5zoXqnF99Oc+8YPV+MrUWyEAQAIOpKbfg6TTIEUjNMAs47OK/TrUQcLxeZQlLQ2ORbSpNdP9mWSYF23doEwjFO56BU+qlpZde1TIcCY+/t5nTJ4yNtx7kOU5NRu3dSHej7RfvGY+cJhOLVwnqyjl7eL0NlkSgm1qigIH+ecAtGiCDD1Ydh8IicBxhUAQNXhRU7RL8p2fmw==
+       properties :
+        x : 6
+        y : 6
+        width : 323
+        height : 27
+       options :
+        -
+          internal_properties : CAAAAAgAAADGoHSK1gh+yPpPhw5Pt3BFwhcCOm5ux9SNhkShA1Ss4nFP9Mrv0t1TTRH+RoqeOPO89vqmfHNlAFq6+FRZyLgDNhcqG16Ibxq6V0A5EF81MyHCaV5OOrnfL7pYkhhXwlhbu1RP9eOYe3X+skSTTYApIfC4QeSzCjq/tvfsoCh1YXesY+5qOr0=
+       type : 5
+       controls : []
+       code_elements :
+        type_code : 5
+        p_codes :
+         -
+           code : |1+
+            // On récupère la valeur de la configuration avancée
+            INTER_AVANCE = gstConfigurationFTP.gbAvance
+            
+            // On modifie l'état du champ tiroir selon la configuration
+            sI INTER_AVANCE ALORS
+            TIR_Parametre_avance = Vrai
+            SINON
+            TIR_Parametre_avance = Faux
+            FIN
+           type : 14
+         -
+           code : |1-
+            
+           type : 15
+         -
+           code : |1-
+            
+           type : 16
+         -
+           code : |1+
+            // On modifie l'état du champ tiroir selon la configuration
+            SI INTER_AVANCE alors
+            	TIR_Parametre_avance = Vrai
+            SINON
+            	TIR_Parametre_avance = faux
+            FIN
+            
+           type : 17
+     -
+       name : SAI_NUM_PORT
+       identifier : 0x260d2e0701a6ac98
+       internal_properties : CAAAAAgAAAACV0JH0XrH08+JD5WklQ2fk56HYyoxKQWLTtERBzgxtvxyrqC1iYEb3hAjtGmXox9j91Sssw4gAY7To2G4bjsZ0V4pUHdR1P9dAr0dxneBKPhCML6d+8wIV8oHtjV3y4+5vtyrgkWrvLav1DmYA4foEl7Vtyy8zq4mZBzMUM5gvfdifDQAXQ9+OFOSH5eYYBvAgsiJKNa8e1oYUYYcwEBF5MAGSS4aaXhPgT9cXZ2MCeGHaSmmr8+wE7GieQOK8VlqyBfmNeNDMxn/eolk94wNEPTRiEo0TeyYmbwb0e7jU5fzwRv9dVcKzmDwFtJtVXJscZtYOJzIet2NnCVLXfBkG7JkRY7ZTLXcS0tW4dnTD20gUCPqN0mkCi9WF51rBJRkj4r9Fi7+7br06Z7a+QD2rENcix2MZ0YJYIKEox1Ds6eocOPyDBaDULNCVzOiAm8UQGGLJ+QqxpxlE464rgYtlIlmAzEgVLkZfsQKp0LZSjzAxk2OcigAP/mIYQ7pd7ryn72Py2/PRjM9ycut9vEUzq8pn7uzBMl3DxA9O+htNWkWp6H0Zolgixay5/YvgGrCldVslhQbWvQ5P9IxTZBaeW75CDEKYK+yTDlgjBWykI8nraoY9RQp2k42CQ5Wn1G7EK02JvVi84O/f22L1W2iucGJh2L8N2roV2kMqfkoiFzmoXQWAzGXZ+IJ3I2mbJSlnAOV8G+ANgHORuXcrckxfqz0eGluf/YTiwYHGDeKM21XdDVFLyAla26RFFqUb6/eCD82jMXErtc9t6BYuQ04WOlI0bJuwYdOay0GWy4Gkv83STJDD03saoXRUi6PZLfpkO+8QUhOsXkbHNMBlDO5lAzEwiXZB8ZGCNzK4fPb5ntHcD0KnYygD1YhKm3QZ5KSbS6aCwQnNVXQfDOeTA1zx4NuMvOHQrEa1zFm+4Qn1C5dpHpEMAdRI65qlmeLgsEiAkDMqGRGYOF90H+qVjwfhLtJ2K/DwrGYXnbX6eQ8zRCDn/pA0CQSotCPnUnGwqb0RaRgWFbLPQwlgQVPYv0lZuYeWGp3vRzWo+V6PFbIOWJ9nYYLHndfjx8V/14//WjsV7HnP/UWjHvqKGa/xs+3UXVLzy0VKsPSODk8tQJhGrVlG8ma5/995Tp6xjG/shX3XrUw8BVFcAg+nZoTrn7auGZTOirivqnCR5yA4VFKOnFyXb3Rm3Ni2c0dBFMSoR1bBF0lDpXL5B8kOUd7WGJdZSjVZ1BgQLT4p1Ir85EkyQKDU2DEyq4f28el8rWfrdrOVHDILVHlEhCT/BLc+Gk4HWWZLaCs4aS/5Afl+bkEbUirX27fAOOWeL/a4exsU9Bp+694asiMWBwH9R9zsn/eeeYWc44sOwpyUsSwwtzPCwnPgVWDmvsGld/nCG+IWu/AoWrcTp3nDeO20T0SIpofLbCLLWWAiYtfZ51ykt4egTbhBMGmWHyiWE86gtDQYxbtIEdQr2AaHc9cHvi0a7EEAe+8HggGscLsDUPzByBd/g==
+       properties :
+        x : 6
+        y : 52
+        width : 236
+        height : 40
+       type : 2
+       code_elements :
+        type_code : 3
+        p_codes :
+         -
+           code : |1-
+            
+           type : 14
+         -
+           code : |1-
+            
+           type : 15
+         -
+           code : |1-
+            
+           type : 16
+         -
+           type : 276
+           enabled : false
+         -
+           type : 277
+           enabled : false
+         -
+           type : 278
+           enabled : false
+         -
+           code : |1-
+            
+           type : 17
+     -
+       name : SAI_DELAI
+       identifier : 0x260d2e0701a8ac98
+       internal_properties : CAAAAAgAAADp+rrYR740JlEHucGWUhyE7deB1h2qfsjMgIsxodIyvqde5fuI1bzUNRDvPM0NCfFJuzzUmX+O6hC9uvwgsvaR4rl9rNiMStuWskfa1Uhj0N/ApZHQdLh4zysMdg/uwIE6aGEuCv/OYcXh+h7SNhoUhvdvIijg5tnQb7pv1n8lMOnmmHydHdCXkAiSc7S2VZx6y5RsNjrQ1kC+B2h9kaNGFdKVG3R3ePuWUV0o3SfK0yYuJPG4Lv2K9lpSkOo1qhG5aZH/kiQwlyrN2g1E2mASraGjjmp+6ubhhBPgW8UbPfPC5XWKtt3IamNNLhzqure/qYy7QJjkTs5pdBvuZbX8nuzYjCxY5AeR24IpgjfCiknP8urGF6UAdhvK49BN6S/mmc7WtCWT8uZ7TnN/oTHzAQKrjc3oUgQBGgt0iIezOBi4lY0FLxsyc2wmdxihQCtzOvHcTwJ+KV3YtbwXMGnlg6u/XfxpvhiEMi+5rhoYAYgOI2GxSwF1DoTGJUU8aze1BIzzEEV5Wn3TFBCYIlgnIfZAnu+RINpjingRixF91OwXe5tUgQjLSZ0ETaOyjesaViRVMXQvhf5gwuqWgm28H2ih3QcchrrqVuT/T+GnvHkqIkVBGk76N3pwM1tvexYUcpVT3RPPRr0nglgb1hYQcQZtPLuaD0PIYCUOGtuiQXpnJjj/rI3xgl9WGgKkuDIWdW8VvMAhp4pn0id77Wgkp9oF/9SUF0184YWE99op34Bur3eHDNM1C+lGpTnP7pic5e3A10Aw+zLw5VM3i3qEQsEMW0NT13Ixvdn54qqk+X1cIXJKq1JgPhQe6IbLNb6VJvOrQMDG6vT5Rp31g91McgCMfz8B//chlvOgwgdygVyK85MZEBVSgyIeei+Cl8Ew0lPG9GmMP/n8v1J1s8sfOD1YB+8e43zhhw6jmazYOQ64OostR4UueI7oDHVLnMTSfxNlON1NrdQr3LxZgF1ROLoKIMisBYuUuvsL/HDZPpS8wQcTbSWTPvVO1bFEzIfxY3cM3nlCiSfKgRuIFDF+JEfxWn67Yu7TI/gWfabVyJYfLATqhDD333jfmFjsows7lZPIUeVJFmFYiZW0Vzgo29fagKZHsAXK2eRVzSK0Xo5Kqu3zxF+O5+ztkjs48kyd7yuocI0tpd7jpnB33ro8BQMjWNAvzsEACqV3ysN+vJZR9laLkUzXMiaSmAESNYvPO2Ivkeu8R6SB/XavhCbQDcGXFoF3iDrxx+DyHoPV9Bo03HVXqFzivuV6NIMRwxsj/CEeORc9eGKFHIlTbtI04riw5XFoF/sFfj2QmdFnER0kLq5CbstODwrbasy4Vm7XWGcJ+bfIyUN+XaIosNR+s/mE2c89/cqGloTZwwE/WdhzJw/Z5lk8JHfM+0ABTVdRXsCSXkN6A73+Tn+hsyuf9JBp8EVu5bsX9kr7Q14GGxNICIS+UgSfWL/Yn8zWrxO56Y6bFIeaX5/iyjDaOfLPw7VFi7iNQKc4csc4+ERPrFpNlXZpKp1EVM+fYFxGX+RKyzsK3oCBKR4cNK0=
+       properties :
+        x : 248
+        y : 52
+        width : 184
+        height : 40
+       type : 2
+       code_elements :
+        type_code : 3
+        p_codes :
+         -
+           code : |1-
+            
+           type : 14
+         -
+           code : |1-
+            
+           type : 15
+         -
+           code : |1-
+            
+           type : 16
+         -
+           type : 276
+           enabled : false
+         -
+           type : 277
+           enabled : false
+         -
+           type : 278
+           enabled : false
+         -
+           code : |1-
+            
+           type : 17
+     -
+       name : INT_ACTIF
+       identifier : 0x260d2e0701abaca8
+       internal_properties : CAAAAAgAAAAQo35OKkGtaWe4o6aYW56RCgi8XAScadFhK4N3gOuVGUFYR4PyRsm6cLKyvBf0iCKDeb0UmGz27GMqK2tc60AReE3WzIngnz3MiCFuf/g6fW6OupXnpPVeMq8xFaBxED3OI5dY3a7JiHK7IsPJzLuDJv3JDoypamwrSMZuQTtP9hC73ryGlcwn8iRLdoVyAYBCR4dV17KBT5Ejfo09ugGN3gcGFWSZGgWKRN6HQojexDh215Le8lNW3lpBEWv2lGplWLBNBpTs2NY8wQhVQRxwliHCn6a3IWlgbzBKS1xYQEiczt6nKZTHHqa5LmI///bBAi8RRduhJgIZ+Aszu6T4o8omrs/+dxwYtVmtb4pFCKh2GrMqz8ETnbMAiCvoO7F57dtfuIxxBIwPDHv4OnvKnX5xj/IHVK4HRzlX9dfgw9eUQ/bknHsSdb4t/uWGnlTaWGXF8lOX7X9crsugfH4kFFLkIuXJfkx5n8G4SDM8F7UAfJYDsSRHiFCN3zIKmsTI88/m24/9riXisdDG+zQQFw8D1HyLjcbSgn/+n8lrJztYRdVO+EUtRLevZS8b9rQ9Gj3pqQusXygIe2+Up/WDuYPy36HpMYQ0t+OaM8fdCkvsW4wC7y+E2kAtdqPdDFMpr47DOno631Cd38AJflNzSEhHLuTSg5Qe+DYZ5R0Ok3CgRBdQ5zD4GUMc7vq9C4RNIn7E1C5zywsa4fGdHnbOztGguKqbvpKaWUGiLnTw1ghtt38/1hYTXvNA9bwxnts3JN1me8JHhHVtyi2wQH6og44V0JHB6DDkJK7gLXTgnRQDHqnPVTe92DwyGSBXs5+bDk904Pdv05qrAMTRNwGUavibXzabSAh5yxIwvqrP0cJYVus9iL8SFc7Axuxs3YCJXsPwAdbEtie3Fgt+itjqF9u9s9dHn0S1EcaASUnWlKVysC5DaceXpLk8qRN899e58GIM/m7CRbrPgKGa8OD3hN1T7YDiHa3hDoimck+Y7GvXDdbuXDlNTpFy1TnVsRhG5slIKDjjUhBNKDGp0Jb3yGTzRbbX8sK7y5ZR5BaiybH2h9457pEIQMSL9+ubbY7YqNyar1tG7cwCUBSFedSwm2YfS2EzpO3yCUwXQ+FrKpjAb/PQu5gzB19R8B+KZa2a075fm7XNla/6VIyMuhbJvSuJ0IAGQnAxgZB3Rl06lPzDYZhtI2iJa8I0L8hBJ8L+AQW3zZHvFfbvQMxaAOqkugGpDWp6MGpcOxYA8akOVGsmX3Zfm5z/iLp5M1EbZQ==
+       properties :
+        x : 6
+        y : 104
+        width : 323
+        height : 23
+       options :
+        -
+          internal_properties : CAAAAAgAAAD0N6XBqBArSlrIH27nR6y8zI+teNfps8cpHHh+HWu/kbOCHu3bY1wYztvhyRxNJWvrnwulj0ZNaFSxmzqoeaO10+jEUxkrDCg05kbmgmYCi5ZeZ1A1gf4Y9JdoVlO1RGSHYrVn1vyTT8c6LNcpNT0jUP4MZQZJcjKTMDgYi+uXrdJW5YI=
+       type : 5
+       controls : []
+       code_elements :
+        type_code : 5
+        p_codes :
+         -
+           code : |1-
+            
+           type : 14
+         -
+           code : |1-
+            
+           type : 15
+         -
+           code : |1-
+            
+           type : 16
+         -
+           code : |1-
+            
+           type : 17
+     -
+       name : SEL_TRANSFERT
+       identifier : 0x260d2e0701b0acb8
+       internal_properties : CAAAAAgAAAD9SEEX8S2TK3dUjbKzEnx4MM9zgZocPNX5B7s+tpLxW2WGPhyW1vGM4hfsC0adpW2N0M+2Do4MCKaopfk95zcOuwo/Q86kXmnXpLe6BKQPut5J0MsGC/xsTRr4nYIWIAAUGaOSyXdc4xmL61zN7YoBizPAZHIpVLD29VlOKmGyZhMR6p97/V2N7IERmo4wTPNfPJTq3fe7biBPZOl7iOcLCqVbkMp04QsWq1JZJnCrhJnoiTIQepmEsKzK3lNpjuv0pC6GdqCUIBfd54RmjhbB1Kr/AE1scMFU/HESZEbJtmdi+O6cz2oYXXliEdFlI+ITkGfIR1e6ZXL+icBkM/ccb6W6sBvNwQ85w5KtMm3U9oYOVOA/4parNlVTzxjpiAZkynKre1MY6Vgq2W1yc9Z4sg5/CsMGHlzVIE2Z1FXLs9xKgyG4g7YF5tDAlrSAlwrA/WUG8DECOwXB7iJOWmO6q5dDqyKqM1TyaNaLp3fTz0Ak5aBrUz/m/crPxACL4h7ZDtiSwOQfpGaPXQPFZyVHqklodBbvm8+NyrZt6MfntCu35YR3gZGl6Qbxq3Fnb7g7aDQdCzoaaGkoo7wV30iP/eQ9GAAiDkXllDn6vwgqO4EqzMinTcL/NAggJd/vay1hdEXkF+uimZ57tfC2d4MtsAo5lSt6oHaQTP4zbEFaCc9HszlPgMnd6dPJf8BSY7I808d08fhDWze2Yt4Ely9SEXOTHvFWnPmVyBQOZ4JEsKv3GUtEkFmRKDXoTHCYjwu9QXw7J1RinIiUUzMtRIvukkVXVgqdJk15nM4Ap9uO3EGlS3t9atMZj+kv56h2yqasYXDsbsmlgUN6sbnqJlB9kvbueCx8h/b6TVq/dVTFEKLMQ2o9kMjpIbtgv11VfntmT0bkfSV5bFzDEZeQgGVNLr7kBDTjJn255pdcAYrPhacoH3Vqq9nHSob/xeejepCqVOuM5Q90uyft9nu+L2yZMAKlojTh/0X0fTEDP9DtfGUsV68r4gdDQbMuQi/P0Sz2IinqMq7dYro28BoYh7zR93IRcAgaYMuMqwGfF8f+6xRQtNZOX8LjrlT2Cl/Oqwaz8HpuRsyfQ6k4UjAUNJS+Ef1ls01tAjSWqbKEzKGx1g0w7C9Z6fca+VDXXZGFQBfAnH66BvILxvTvwEYIaxKmnDVx+LLsZsRA3AznJmNeO00n+J22HfArUgSHHBY3bLY/qh8m/2WzkXFao0YMm8JnA2AUfPVO7nM=
+       properties :
+        x : 6
+        y : 137
+        width : 312
+        height : 49
+       options :
+        -
+          internal_properties : CAAAAAgAAAAETzj9l9S3HIOM3GQ1gKKR0Ink+YCYA7dAUKo/sTLeV8OXCImuGm+pM2bx9rDQAq+2RvmE3Vf4j7p7iOOGHya6uxHVYw0bvQE4yQWocqK0RWOojL7BybPlYuIvcCmryFj8r/8pDq7ANG/CR0VJ8Uu5f38GKGuNW+AH8cWLhr4dsw4U
+        -
+          internal_properties : CAAAAAgAAACaQS5zsMx6FjaJ4uXtSthMexrRaJ5phQKZl6AwXr8v4Pi03qtAso73VsB3fkcLVxh/CzpxUddY4g3v6Q717Y+xfJwRnZUIoB8T73bu5PU6gqhXSs7HerLvS+gyrp/KWrMjvtcj4MW55trmSGuZC0XkEnEtG2FJHrpz4TJNDMgZlt3g9fE1
+       type : 6
+       controls : []
+       code_elements :
+        type_code : 6
+        p_codes :
+         -
+           code : |1-
+            
+           type : 14
+         -
+           code : |1+
+            CONNECT.TypeTransfert = SEL_TRANSFERT
+           type : 17
+    type : 34
+    code_elements :
+     type_code : 86
+     p_codes :
+      -
+        code : |1+
+         TIR_Parametre_avance= 0
+         
+        type : 14
+  -
+    name : LIB_Connexion
+    identifier : 0x2667f1fa09a5151b
+    internal_properties : CAAAAAgAAACrxW9PzUR3TaS6ZenegyS/N0PnBgH0nxULc2GpE6Gs36Em0P9xtx/xFQGrutBCDWHdesutCSDZFtTmOLKzcaUXoh6dWkh+NMAwvuFtCnBPtw16BEaq1dzw0XJY+nu0hRx2Vdp8TNGoUkCzGbwAWLN90ZuZDFYxlinm+j4KwOZhxe2Vjs4DAtDMD3/zCWqJ5Tb2BaoxtHhumfD2vIXWOgrRzJT3fTsfN6egkFarmW2zXB3FlL3glhc7/wwnFEEm0QrHe8zs6DR3N+YIjN897dAuh02WWrNCDioGovZ2pyfkIjc2kerVlzhnie5FK3gkGlBustqW/HFe4+vqWqZbIWNRyV+FMXMZs+1zq0SUuqRIAa39EO+TMCr7sJ7aOl6oUSGcaOA3KZsTF1NyECi5kb/wwdXTYlQ4jRn1FKbND5d/pPPsHTDcj150XX6crk9mTvNwDI2Lx27c/sLVZ9Ffw57EIUDyUrB9FxXHpTzjcN6AabNYCDet4bGUOwjI0OHcv2XpILE/HCuKmw==
+    properties :
+     x : 12
+     y : 12
+     width : 126
+     height : 26
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+ menu :
+  name : _Menu
+  identifier : 0x23e8acc90528e35f
+  internal_properties : CAAAAAgAAADAfZ27Q+jJ/MBXHLGCb7PyE2Yqjvuo9mAX2ZN+LLuyQtzms1431znXR0sNCCeLESXZp1gqmo+m2mUhb2ELR2phZ8VOgUSyXddfQyxpxffipvH/iiFuFkCLgpjx1Ah9/9/ndeRpWb0s9Qcjy8oPtW3aMcRtuglgDe5Ch9/jnC/Drp19/hhf+qz96diLw5T0yWlzg33c/E8hhMwUBdSOV69/8iDQGLfTvLoTvV3YkiQ5Dce7dxB2gUx1AVvVTykQMm7G+0haIOV568KMGgPEJluRN2XjgQ11Tb8vVxt6P2g=
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAAA+QTacZhywxQc1LT5JxleSxVRRJoMGHkPKI/YkjnkpaGh9leBoih4ox4cs7Nrfx/9XnJRwQvhciB50rIEfnt3LDU2JZy/6KyOMTFQsJrrg62KLLmTwIMes7Gqzyu2aFSY=
+ actionbar : {}
+ code_elements :
+  internal_properties : CAAAAAgAAAAHNtuxwXfxt/5/zqPsAcg3PaaO7mbePY17bTU2PSs4cycihC7w8l/6UMxnGiklVWMMQqkk4ALkUQTd8QvepKNHnOq4cNi8JiD6oECe0+CiKZ+qcp6i4r3VUWOIqU8/aTuPjv+M9nQIDQ==
+  type_code : 1
+  p_codes :
+   -
+     internal_properties : CAAAAAgAAADbctUllDf4EKu2HhYRyTpK3zQ9J+WcjiR/Y0N5msJcPqQTQF7X+I9L+sHA3AkGcPUYeaCj5SeZfaMO8TRyw9niw1qjSzBYPEBllyKiCwtJZJkXEcdL4gARb0vHJKmLZUPDOPJk2LT0If4VE/354m8zhfso7BTOl41dIxYzoBZs
+     code : |1+
+      // Chargement de la configuration
+      ChargeConfiguration()
+      
+      // Création d'une connexion par défaut dans la base
+      SI HNbEnr(CONNECT)=0 ALORS
+      	HRAZ(CONNECT)
+      	CONNECT.Adr_FTP = "ftp.pcsoft.fr"
+      	CONNECT.Libelle = <§@00000000000000000000§>
+      	CONNECT.Login = "Anonymous"
+      	CONNECT.Anonyme = Vrai
+      	HAjoute(CONNECT)
+      FIN
+      
+      
+   -
+     internal_properties : CAAAAAgAAACqVV7ug14NiBcWu2b+84SrzzgtQaCxzD7lm8c7yasOg+u4EN0huZeXQiIziQEe95jziINL30f7+tkubEdhMmn9zrmsOQTouVZ37yySpyKHL4TD1t9vf+OxEXs5aJYBJDtA55U5ASva8Zpzmw==
+     code : |1-
+      // On remplit la combo avec les différents profils existants
+      InitComboProfils()
+      
+      si COMBO_PROFILS<>"" alors
+      	hlitrecherchepremier(CONNECT,Libelle,COMBO_PROFILS)
+      	FichierVersEcran(FEN_CONNEXION,connect)
+      	
+      	MaSecurité est une ESecuriteConnexion = CONNECT.SécuritéConnexion
+      	SEL_SECURITE = MaSecurité..Valeur
+      	
+      fin
+      
+      SI INT_ANONYME alors
+      	NOM_MDP..ETat = Grisé
+      SINON
+      	NOM_MDP..ETat = Actif
+      FIN
+     type : 34
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      //si gstConnexionFTP.nIDConnexion=-1 alors
+      //	FinProgramme()
+      //FIN
+     type : 2
+   -
+     code : |1-
+      
+     type : 11
+   -
+     code : |1-
+      
+     type : 12
+   -
+     type : 17
+   -
+     code : |1-
+      
+     type : 13
+  procedures :
+   -
+     name : ViderChamps
+     procedure_id : 1434586460616057695
+     type_code : 14
+     code : |1-
+      // Syntaxe :
+      //ViderChamps ()
+      //vide le contenu des champs concernant la configuration
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      Procédure ViderChamps()
+      
+      SAI_ADRESSE_SERVEUR = ""
+      SAI_NOM_UTILISATEUR = ""
+      SAI_MDP = ""
+      INT_ANONYME = 0
+      INTER_AVANCE = 0
+      SAI_NUM_PORT = ""
+      INT_ACTIF = Vrai
+      SAI_DELAI = 20
+      INT_IGNORER_ERREURS[1]=Faux
+      
+      SI INT_ANONYME alors
+      	NOM_MDP..ETat = Grisé
+      SINON
+      	NOM_MDP..ETat = Actif
+      FIN
+     type : 458752
+   -
+     name : RemplirChamps
+     procedure_id : 1434586460616123231
+     type_code : 14
+     code : |1-
+      // Syntaxe :
+      //RemplirChamps ()
+      //Remplir les champs de la fenêtre de configuration avec le profil en cours
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      Procédure RemplirChamps()
+      
+      SAI_ADRESSE_SERVEUR = CONNECT.Adr_FTP
+      SAI_NOM_UTILISATEUR = CONNECT.Login
+      SAI_MDP = CONNECT.Password
+      INT_ANONYME = CONNECT.Anonyme
+      INTER_AVANCE = CONNECT.Avance
+      SAI_NUM_PORT = CONNECT.NumPort
+      INT_ACTIF = gstConfigurationFTP.gnTypeConnexion
+      SAI_DELAI = gstConfigurationFTP.gnDelai
+      INT_IGNORER_ERREURS[1] = CONNECT.IgnorerErreurs
+      
+      SI INT_ANONYME alors
+      	NOM_MDP..ETat = Grisé
+      SINON
+      	NOM_MDP..ETat = Actif
+      FIN
+     type : 458752
+   -
+     name : nComparaisonConfig
+     procedure_id : 1434586460616188767
+     type_code : 14
+     code : |1+
+      // Syntaxe :
+      //[ <Résultat> = ] nComparaisonConfig ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	entier : 0 si aucune modification ou ajout n'est nécessaire
+      //           1 si ajout d'un profil
+      //		     2 s'il s'agit d'une modification
+      
+      Procédure nComparaisonConfig()
+      
+      // Recherche du profil
+      HLitRecherchePremier(CONNECT,Libelle,gstConfigurationFTP.gsProfil)
+      si HTrouve(CONNECT)=Faux alors
+      	// Ajout d'un nouveau profil
+      	MiseEnPlaceEnreg()
+      	RENVOYER 1
+      SINON
+      	// On compare par rapport à l'enregistrement précédent
+      	si bCompareEnreg() = Faux alors
+      		// Il y a eu modification du profil
+      		MiseEnPlaceEnreg()	
+      		RENVOYER 2
+      	SINON
+      		// Pas de modification
+      		RENVOYER 0
+      	FIN                                    
+      FIN
+      
+     type : 458752
+   -
+     name : MiseEnPlaceEnreg
+     procedure_id : 1434586460616254303
+     type_code : 14
+     code : |1+
+      // Syntaxe :
+      //MiseEnPlaceEnreg ()
+      //Mise en place de l'enregistrement en mémoire
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      Procédure MiseEnPlaceEnreg()
+      
+      // Mise en place du profil en cours
+      CONNECT.Libelle = gstConfigurationFTP.gsProfil
+      CONNECT.Adr_FTP = gstConfigurationFTP.gsAdresse_FTP 
+      CONNECT.Login = gstConfigurationFTP.gsNom_Utilisateur 
+      CONNECT.Password = gstConfigurationFTP.gsMDP_Utilisateur 
+      CONNECT.Anonyme = gstConfigurationFTP.gbAnonyme 
+      CONNECT.Avance = gstConfigurationFTP.gbAvance 
+      CONNECT.NumPort= gstConfigurationFTP.gnNumero_port 
+      CONNECT.TypeConnexion = gstConfigurationFTP.gnTypeConnexion 
+      CONNECT.DelaiConnexion = gstConfigurationFTP.gnDelai
+      CONNECT.TypeTransfert = gstConfigurationFTP.gnTypeTransfert
+      Connect.SécuritéConnexion = gstConfigurationFTP.gnSécuritéConnexion
+      CONNECT.IgnorerErreurs = gstConfigurationFTP.gbIgnorerErreur
+     type : 458752
+   -
+     name : MiseEnFormeAdrIP
+     procedure_id : 1434586460616319839
+     type_code : 14
+     code : |1+
+      // Syntaxe :
+      //MiseEnFormeAdrIP ()
+      // Mise en forme de l'adresse IP pour compatibilité IIS 5.0
+      // Pour être compatible avec IIS 5.0, les adresses IP doivent respecter une notation
+      // Ex : 10.132.5.4 => Valide
+      // mais 10.132.005.004 => Non valide (et message d'erreur non correspondant)
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      Procédure MiseEnFormeAdrIP()                           
+      
+      
+      sAdresseIP EST UNE CHAINE 
+      sPortionAdresse EST UNE CHAINE
+      nValeurAdresse EST UN entier
+      i EST UN entier 
+      
+      sAdresseIP = SAI_ADRESSE_SERVEUR
+      SAI_ADRESSE_SERVEUR = ""
+      
+      POUR i=1 A 4
+      	// On extrait les portions de l'adresse IP une par une
+      	sPortionAdresse = ExtraitChaîne(sAdresseIP,i,".")
+      	// On transforme en entier pour supprimer les 0 inutiles
+      	nValeurAdresse = Val(sPortionAdresse)					
+      	// On reconstruit l'adresse IP
+      	SI SAI_ADRESSE_SERVEUR <> "" ALORS
+      		SAI_ADRESSE_SERVEUR = SAI_ADRESSE_SERVEUR + "." + nValeurAdresse 
+      	SINON
+      		SAI_ADRESSE_SERVEUR = nValeurAdresse 
+      	FIN	
+      FIN
+      
+     type : 458752
+   -
+     name : MemoriserConfiguration
+     procedure_id : 1434586460616385375
+     type_code : 14
+     code : |1-
+      // Syntaxe :
+      //MemoriserConfiguration ()
+      // Mémorisation de la configuration demandée
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      Procédure MemoriserConfiguration()
+               
+      // Lecture des champs
+      gstConfigurationFTP.gsAdresse_FTP 		= SAI_ADRESSE_SERVEUR
+      gstConfigurationFTP.gsNom_Utilisateur 	= SAI_NOM_UTILISATEUR
+      gstConfigurationFTP.gsMDP_Utilisateur 	= SAI_MDP
+      gstConfigurationFTP.gbAnonyme 			= INT_ANONYME
+      gstConfigurationFTP.gbAvance 			= INTER_AVANCE
+      gstConfigurationFTP.gnNumero_port 		= SAI_NUM_PORT
+      gstConfigurationFTP.gnTypeConnexion 		= INT_ACTIF
+      gstConfigurationFTP.gsProfil 			= COMBO_PROFILS
+      gstConfigurationFTP.gnDelai 			= SAI_DELAI
+      gstConfigurationFTP.gnTypeTransfert 		= SEL_TRANSFERT
+      selon SEL_SECURITE
+      	// non sécurisée
+      	CAS 1
+      		gstConfigurationFTP.gnSécuritéConnexion	= NonSecurise
+      	// sécurisée : protocole SFTP
+      	CAS 2
+      		gstConfigurationFTP.gnSécuritéConnexion	=sftp
+      	// sécurisée : protocole FTPS
+      	CAS 3
+      		gstConfigurationFTP.gnSécuritéConnexion	=ftps
+      	// sécurisée : protocole FTPES
+      	CAS 4
+      	gstConfigurationFTP.gnSécuritéConnexion	=ftpes		
+      FIN
+      
+      gstConfigurationFTP.gbIgnorerErreur 		= INT_IGNORER_ERREURS[1]
+     type : 458752
+   -
+     name : InitComboProfils
+     internal_properties : CAAAAAgAAABIsYGEk4BDuEjjun2g/lbFpmaez9GDZHqUi4bd5sxRt3rC2kpT6iGQ1EVj1k5/8x9cTA2WA/yKaS/fGaZbGvHKqJm6uDOy8TY8zFLJpOC3RjK7uNZZ9hJcCf2EyVv9rHPPX+ynbTqXBu/lFyactKQHGIHiUfWu1bmj5bwD4J4albR9SDOC7iWXOcNp1dsU3NMvfbryE50MBs4piJTyBXLH5Mt4+9OMMDwehrXimTGzQcA=
+     procedure_id : 1434586460616450911
+     type_code : 14
+     code : |1+
+      // Syntaxe :
+      //InitComboProfils ()
+      //  Initialise la combo contenant les différents profils de connexion
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      Procédure InitComboProfils()
+              
+      // On remplit la combo
+      FichierVersListeMémoire(COMBO_PROFILS,CONNECT,Libelle)
+      
+      // On recherche la position du profil en cours dans la combo et on le sélectionne
+      nPosition est un entier
+      nPosition= Listecherche(COMBO_PROFILS, gstConfigurationFTP.gsProfil, Vrai)
+      si nPosition > 0 alors 
+      	ListeSelectPlus(COMBO_PROFILS, nPosition)
+      sinon
+      	listeSelectPlus(COMBO_PROFILS, 1)
+      FIN
+      
+     type : 458752
+   -
+     name : ConnexionSiteFTP
+     procedure_id : 1434586460616516447
+     type_code : 14
+     code : |1-
+      // Syntaxe :
+      //ConnexionSiteFTP ()
+      // Connexion effective au site FTP selon la configuration demandée
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      Procédure ConnexionSiteFTP()
+      
+      sablier(Vrai)
+      
+      // Variables locales
+      sProtocole est une chaîne
+      
+      // On recherche le protocole selon la sécurité de la connexion
+      SELON gstConfigurationFTP.gnSécuritéConnexion
+      	CAS ESecuriteConnexion.NonSecurisé
+      		// non sécurisée	
+      		sProtocole = ""
+      		
+      	CAs ESecuriteConnexion.sftp
+      		// sécurisée : protocole SFTP
+      		sProtocole = "sftp://"
+      	CAS ESecuriteConnexion.ftps
+      		// sécurisée : protocole FTPS
+      		sProtocole = "ftps://"
+      	CAS ESecuriteConnexion.ftpes			
+      		// sécurisée : protocole FTPES	
+      		sProtocole = "ftpes://"
+      		
+      FIN
+      
+      SI gstConfigurationFTP.gbIgnorerErreur = Vrai alors
+      	FTP.IgnoreErreur = FTPIgnoreNomCertificatInvalide + FTPIgnoreCertificatInvalide + FTPIgnoreCertificatExpire
+      SINON
+      	FTP.IgnoreErreur = 0
+      FIN
+      
+      si gstConfigurationFTP.gbAnonyme=Faux alors
+      	// Connexion nominative
+      	si gstConfigurationFTP.gbAvance=Faux alors
+      		// Paramétrage standard
+      		gstConnexionFTP.nIDConnexion = ftpconnecte(sProtocole+gstConfigurationFTP.gsAdresse_FTP,gstConfigurationFTP.gsNom_Utilisateur,gstConfigurationFTP.gsMDP_utilisateur)		
+      	SINON
+      		// Paramétrage avancé
+      		gstConnexionFTP.nIDConnexion = ftpconnecte(sProtocole+gstConfigurationFTP.gsAdresse_FTP,gstConfigurationFTP.gsNom_Utilisateur,...
+      					gstConfigurationFTP.gsMDP_utilisateur,gstConfigurationFTP.gnNumero_Port,gstConfigurationFTP.gnTypeConnexion,gstConfigurationFTP.gnDelai)
+      	FIN  	
+      sinon
+      	// Connexion anonyme
+      	si gstConfigurationFTP.gbAvance=Faux alors
+      		// Paramétrage standard
+      		gstConnexionFTP.nIDConnexion = ftpconnecte(sProtocole+gstConfigurationFTP.gsAdresse_FTP)
+      	SINON
+      		// Paramétrage avancé
+      		gstConnexionFTP.nIDConnexion = ftpconnecte(sProtocole+gstConfigurationFTP.gsAdresse_FTP,"","",gstConfigurationFTP.gnNumero_Port,gstConfigurationFTP.gnTypeConnexion,gstConfigurationFTP.gnDelai)
+      	FIN  	
+      FIN                    
+      
+      sablier(Faux)
+     type : 458752
+   -
+     name : bCompareEnreg
+     procedure_id : 1434586460616581983
+     type_code : 14
+     code : |1+
+      // Syntaxe :
+      //[ <Résultat> = ] bCompareEnreg ()
+      // Comparaison de l'enregistrement courant par rapport à la configuration demandée
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	booléen : Renvoie vrai si les informations sont identiques
+      Procédure bCompareEnreg()
+      
+      si CONNECT.Login ~= gstConfigurationFTP.gsNom_Utilisateur alors RENVOYER Faux
+      si CONNECT.Adr_FTP ~= gstConfigurationFTP.gsAdresse_FTP alors RENVOYER Faux  
+      si CONNECT.Password ~= gstConfigurationFTP.gsMDP_Utilisateur alors RENVOYER Faux
+      si gstConfigurationFTP.gbAvance <> CONNECT.Avance alors	RENVOYER Faux	
+      si gstConfigurationFTP.gbAnonyme <> CONNECT.Anonyme alors RENVOYER Faux	
+      si gstConfigurationFTP.gnNumero_port <> CONNECT.NumPort alors RENVOYER Faux	
+      si gstConfigurationFTP.gnTypeConnexion <> CONNECT.TypeConnexion alors RENVOYER Faux	
+      SI gstConfigurationFTP.gnDelai <> CONNECT.DelaiConnexion ALORS RENVOYER Faux
+      si gstConfigurationFTP.gnTypeTransfert <> CONNECT.TypeTransfert ALORS RENVOYER Faux
+      SI gstConfigurationFTP.gnSécuritéConnexion <> CONNECT.SécuritéConnexion alors renvoyer faux
+      SI gstConfigurationFTP.gbIgnorerErreur <> Connect.IgnorerErreurs alors renvoyer Faux
+      
+      // Par défaut, les informations sont identiques
+      RENVOYER Vrai
+      
+     type : 458752
+   -
+     name : ChargeConfiguration
+     procedure_id : 1812025506527001516
+     type_code : 14
+     code : |1-
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //ChargeConfiguration ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      Procédure ChargeConfiguration()
+      
+      // Récupération du profil mémorisé
+      gstConfigurationFTP.gsProfil = ChargeParamètre("Profil","")
+      
+      // Lecture de l'enregistrement correspondant au profil
+      SI gstConfigurationFTP.gsProfil<>"" ALORS
+      	HLitRecherchePremier(CONNECT,Libelle,gstConfigurationFTP.gsProfil)
+      	SI HTrouve(CONNECT) ALORS
+      		// Mémorisation des paramètres du profil courant
+      		gstConfigurationFTP.gsNom_Utilisateur 	= CONNECT.Login
+      		gstConfigurationFTP.gsMDP_Utilisateur 	= CONNECT.Password
+      		gstConfigurationFTP.gbAnonyme 			= CONNECT.Anonyme
+      		gstConfigurationFTP.gbAvance 			= CONNECT.Avance
+      		gstConfigurationFTP.gnNumero_port 		= CONNECT.NumPort
+      		gstConfigurationFTP.gnTypeConnexion 		= CONNECT.TypeConnexion
+      		gstConfigurationFTP.gsAdresse_FTP 		= CONNECT.Adr_FTP
+      		gstConfigurationFTP.gndelai 			= CONNECT.DelaiConnexion
+      		gstConfigurationFTP.gnTypeTransfert 		= CONNECT.TypeTransfert
+      		gstConfigurationFTP.gnSécuritéConnexion		= CONNECT.SécuritéConnexion
+      		
+      		gstConfigurationFTP.gbIgnorerErreur 		= CONNECT.IgnorerErreurs
+      	FIN
+      FIN
+     type : 458752
+  templates :
+   -
+     name : FEN_CONNEXION
+     identifier : 0x1543cfe0027541f9
+     code_elements :
+      internal_properties : CAAAAAgAAAD+8bwDp7IGPBYShSEXt+zKmdGBkPCHcm+747gePLNH3Lb+PUZU+72/hPxNFiYt0y4rUGpGbr401a2toyUvYi3n6Somo2IX2euGheX7hZyPRfWLSRG7jQxDW0twULM5orC7Xw==
+      type_code : 1
+      p_codes :
+       -
+         code : |1+
+          
+          
+       -
+         code : |1+
+          
+          
+         type : 34
+       -
+         type : 180
+         enabled : false
+       -
+         type : 230
+         enabled : false
+       -
+         code : |1+
+          
+          
+         type : 2
+       -
+         code : |1+
+          
+          
+         type : 11
+       -
+         code : |1+
+          
+          
+         type : 12
+       -
+         code : |1+
+          
+          
+         type : 17
+       -
+         code : |1+
+          
+          
+         type : 13
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAAAhInS+NDJXuJjZEVrqwOH6p6Y/aMmIo5qISeYCIBY2SoEUy11wntM2rs/JHLoXEw14izZUYcZBOQWz8lMbhZFBe1/W1eT5JIjZaJHXYFkSJydDCjhsmz3KoTNBS3ZJ8oVGzgI=
+  original_name : FenConnexion
+resources :
+ string_res :
+  identifier : 0x3c518fb104d85f2a
+  internal_properties : CAAAAAgAAAA8HpItcN7eoRKcVNu2KtzNYqygVd9Dt6eqyJwtSaB1ofcXGciKNhTxlmv0bbss9esrKw==
+  strings :
+   -
+     text :
+      fr-FR : Voulez-vous supprimer le profil <%1> ?
+     index : 4
+   -
+     text :
+      fr-FR : La connexion n'a pas été établie.
+     index : 5
+   -
+     text :
+      fr-FR : Vous devez spécifier l'adresse du serveur FTP.
+     index : 6
+   -
+     text :
+      fr-FR : Vous devez spécifier un nom pour ce profil.
+     index : 7
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

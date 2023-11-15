@@ -1,0 +1,352 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : COL_Observateur
+ major_version : 28
+ minor_version : 0
+ type : 7
+ description : ""
+ subtype : 0
+procedure_set :
+ identifier : 0x160a447a002a9f0e
+ internal_properties : CAAAAAgAAABGLu41kG7fjQV3iS4F72qmnKaNh5694reolNKIW0iw
+ code_elements :
+  internal_properties : CAAAAAgAAAAcTcmmfUmuQlW2bcp+ZVjHZgbYdkMaQjU4rx7B2sEBwa3EDL2hYNKlZSykW+NDXHbH7BwQa7t5AdgZQkBPNMASgDN4Wtvw
+  type_code : 31
+  p_codes :
+   -
+     code : |1+
+      // L'application WD Transfert de fichiers par FTP utilise le pattern
+      
+      // Nombres d'octets déjà envoyés, utile pour le graphe de bande passante
+      gnNBOctectsPrécédent est un entier = 0
+     type : 720896
+  procedures :
+   -
+     name : MAJGrapheBandePassante
+     internal_properties : CAAAAAgAAAA7AsTjVbDQkJHR6+5LJq6jE1oaZmbq9Gqv/1vDymd94S0skY5d6t83SdGsbq0qtEoja9TLJcAGImJqkPjie//AT3MTfoy3+sNYE354IIDnmD3e47zVaSwnti21Y14+ZiOt4IYpF8l7rC1qSC557mFskwX04FEN+LlPErfK/9gfN8OrsrU=
+     procedure_id : 1588157165215667005
+     type_code : 15
+     group : 5
+     code : |1-
+      // Résumé : Procédure appelée périodiquement lors des transferts FTP pour mettre à jour le graphe de la bande passante
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      // Procédure automatique :
+      // La procédure est exécutée manuellement, lors d'un appel dans le code
+      // Elle sera répétée en boucle, en attendant 1 seconde entre chaque appel
+      // Un nouveau timer est créé pour chaque appel à la procédure
+      // 
+      
+      PROCEDURE MAJGrapheBandePassante()
+      
+      // Si la fenêtre est lancée
+      SI FEN_PRINCIPALE..Etat = Actif ALORS
+      	
+      	//Somme des transferts
+      	nSommeTransfert est un entier = 0
+      	
+      	pour TOUTE stElementATransfererLocal  DE COL_FTP_taches_parallèle.gtabTableauListeFichiers
+      		// Somme de tous les fichiers à transférer
+      		nSommeTransfert = nSommeTransfert+stElementATransfererLocal.nTailleDéjàRécupérée
+      	FIN
+      	
+      	// On soustraie la dernière valeur du graphe afin de savoir combien d’octets ont été transféré entre deux appels de procédure
+      	
+      	
+      	// Pour se souvenir de la valeur compter précédemment 
+      	nPrécédentOctects est un entier = 0
+      	
+      	nPrécédentOctects = nSommeTransfert
+      	nSommeTransfert = nSommeTransfert -gnNBOctectsPrécédent
+      	// On enregistre le nombres d'octets déjà transférer pour le prochain appel de la fonction
+      	gnNBOctectsPrécédent = nPrécédentOctects
+      	
+      	// pour avoir la valeur en Ko
+      	nSommeTransfert = abs(nSommeTransfert / 1000)
+      	
+      	
+      	// Pour se souvenir de la valeur de la série précédente
+      	nPrécédentSerie1,nPrécédentSerie2,nPrécédentSerie3,nPrécédentSerie4,nPrécédentSerie5 est un entier = 0
+      	
+      	// On récupère les valeurs précédentes
+      	nPrécédentSerie1 = grRécupèreDonnée(FEN_PRINCIPALE.GRF_BandePassante,1,2)
+      	nPrécédentSerie2 = grRécupèreDonnée(FEN_PRINCIPALE.GRF_BandePassante,1,3)
+      	nPrécédentSerie3 = grRécupèreDonnée(FEN_PRINCIPALE.GRF_BandePassante,1,4)
+      	nPrécédentSerie4 = grRécupèreDonnée(FEN_PRINCIPALE.GRF_BandePassante,1,5)
+      	nPrécédentSerie5 = grRécupèreDonnée(FEN_PRINCIPALE.GRF_BandePassante,1,6)
+      	
+      	// On supprime la série
+      	grSupprimeSérie(FEN_PRINCIPALE.GRF_BandePassante,1)
+      	
+      	//on ajoutes les anciennes valeurs dans l'ordre, afin d'avoir toujours les 6 dernier points affichés
+      	grAjouteDonnée(FEN_PRINCIPALE.GRF_BandePassante,1,nPrécédentSerie1)
+      	grAjouteDonnée(FEN_PRINCIPALE.GRF_BandePassante,1,nPrécédentSerie2)
+      	grAjouteDonnée(FEN_PRINCIPALE.GRF_BandePassante,1,nPrécédentSerie3)
+      	grAjouteDonnée(FEN_PRINCIPALE.GRF_BandePassante,1,nPrécédentSerie4)
+      	grAjouteDonnée(FEN_PRINCIPALE.GRF_BandePassante,1,nPrécédentSerie5)
+      	grAjouteDonnée(FEN_PRINCIPALE.GRF_BandePassante,1,nSommeTransfert)
+      	
+      	
+      	// Dessin du graphe
+      	grDessine(FEN_PRINCIPALE.GRF_BandePassante)
+      	
+      FIN
+     type : 458752
+   -
+     name : MAJTableDesTransfert
+     internal_properties : CAAAAAgAAADeO36l67cuncfQoU6BLblpBMoDwSW+xt0rIrnU7b28FPfKNuDKIKF7RDj4aD/LoACSuKVfIZvirco8d+o19GJ7JziMbOuL5Mo9YoBWOiv9Whr5it4x1WBk9qLMMIcFVeHlYvBOrfqx+lkWXXnw516KY3vtTEEn8jTjwQ0pIJCGaUVkB1i9xbS6QeANzsmJO/PTBZafIClQ0L4FC66PgwaIAcpFKnXfu3iNhXPoSJO5/JQw4DyRx7SduReZZ/vAeooLqv8DbEGllRQYPDLyYyueTbhQPKNo31B2BLs2KaxZCRBGkosJN2jMzJ8MC+XBPQ2o2aoVVbWlrBuuPunZ7oZZWgN3gAxw35a2keFiZqRRsP6qJBUy9275T+7N/4qfrJPT02GwLk+nRg==
+     procedure_id : 1588157203870447377
+     type_code : 15
+     group : 5
+     code : |1-
+      // Résumé : Procédure appelée périodiquement lors des transferts FTP pour mettre à jour la table TABLE_Transferts_en_cours
+      // Syntaxe :
+      //MAJTableDesTransfert ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      // Procédure automatique :
+      // La procédure est exécutée automatiquement, après le code d'initialisation du projet, avec un différé de 5 secondes
+      // Elle sera répétée en boucle, en attendant 1 seconde et 50 centièmes de seconde entre chaque appel
+      // Un nouveau timer est créé pour chaque appel à la procédure
+      // 
+      
+      PROCEDURE MAJTableDesTransfert()
+      
+      // Si la fenêtre est lancée
+      si FEN_PRINCIPALE..Etat = actif ALORS
+      	
+      	// Fin des transferts?
+      	bToutTransfertFini est un booléen = vrai
+      	// Indice dans la table de l'élément de la boucle de mise à jour
+      	nIndiceLigne est un entier
+      	// Indice pour rechercher la valeur du tableau
+      	nIndiceTransfert est un entier =1
+      	// Pour le fonctionnement des procédures interne
+      	stElementATransfererLocal est un STFichierARecupere
+      	
+      	// Énumération courante
+      	eEnumerationCourante est une EFTPEtat
+      	
+      	// On effectue une section critique, pour ne pas avoir de modification du tableau pendant l'affichage => si plein de petits fichiers on a une boucle infinie
+      	SectionCritiqueDébut()
+      	si gtabTransfertCourant..Occurrence>COL_FTP_taches_parallèle.gtabTableauListeFichiers..Occurrence ALORS
+      		retour		
+      	FIN
+      	
+      	// Fichiers en cours de transferts
+      	pour i=1 à gtabTransfertCourant..Occurrence
+      		
+      		// On récupère les infos
+      		nIndiceTransfert = gtabTransfertCourant[i]
+      		
+      		stElementATransfererLocal = col_ftp_taches_parallèle.gtabTableauListeFichiers[nIndiceTransfert]
+      					
+      		// L'élément est présent dans la table?
+      		nIndiceLigne= TableCherche(FEN_PRINCIPALE.TABLE_Transfert_en_cours.COL_IDTABLEAU,nIndiceTransfert,Vrai)
+      		
+      		si stElementATransfererLocal.nTailleFichier = 0 _et_ nIndiceTransfert<=gtabTailleTransfert..Occurrence ALORS
+      			stElementATransfererLocal.nTailleFichier = gtabTailleTransfert[nIndiceTransfert]
+      		FIN
+      		
+      		si stElementATransfererLocal.bTransfertTerminé=faux  ALORS
+      			// L'élément est en cours de transfert ou doit être transféré, il n'est donc pas terminé
+      			TransfertPasFini()
+      		sinon		
+      			si TableCherche(FEN_PRINCIPALE.TABLE_Echec.COL_IDTABLEAU,nIndiceTransfert,Vrai)=-1 ET TableCherche(FEN_PRINCIPALE.TABLE_Reussis.COL_IDTABLEAU,nIndiceTransfert,Vrai)=-1 ALORS
+      				TransfertFini()	
+      				TableauSupprime(gtabTransfertCourant,i)	
+      			FIN
+      		FIN		
+      	FIN
+      	SectionCritiqueFin()
+      FIN
+      
+      // MAJ des informations globales
+      FEN_PRINCIPALE.ONG_Transfert[1]..Libellé = "Fichiers en file d'attente (" +gnNbFichierAttente_lib+")"
+      FEN_PRINCIPALE.ONG_Transfert[2]..Libellé = "Transfert échoués (" +gnNBFichierEchec_lib+")"
+      FEN_PRINCIPALE.ONG_Transfert[3]..Libellé = "Transfert réussis (" +gnNBFichierOk_lib+")"
+      
+      
+      	PROCEDURE INTERNE TransfertFini()
+      	// L'élément à fini d'être transféré
+      	SI nIndiceLigne<>-1 ALORS
+      		TableSupprime(FEN_PRINCIPALE.TABLE_Transfert_en_cours,nIndiceLigne)
+      	fin
+      	si stElementATransfererLocal.bTransfertOk = vrai ALORS
+      		si stElementATransfererLocal.nTailleDéjàRécupérée >= stElementATransfererLocal.nTailleFichier ALORS
+      			stElementATransfererLocal.nTailleFichier = stElementATransfererLocal.nTailleDéjàRécupérée
+      			eEnumerationCourante = FTPTerminé
+      			TableInsèreLigne(FEN_PRINCIPALE.TABLE_Reussis,1,nIndiceTransfert,eEnumerationCourante..Valeur,stElementATransfererLocal.sNomFichierSansChemin,stElementATransfererLocal.nTailleDéjàRécupérée,stElementATransfererLocal.nTailleFichier)
+      			// Cette table doit avoir 6 colonnes : 
+      			// Col 1 : Numérique pour le numéro du tableau interne (conseillée invisible)
+      			// Col 2 : FTPATraiter, FTPEnCours, FTPTerminé, FTPEnErreur,FTPAnnulé
+      			// Col 3 : texte pour le nom d'un fichier
+      			// COL 4 : Entier pour la taille récupérée
+      			// COL 5 : TailleTotalFichier
+      			// COL 6 : Image pour la jauge
+      			
+      			FEN_PRINCIPALE.TABLE_Reussis[1].COL_JAUGE..BorneMax = stElementATransfererLocal:nTailleFichier
+      			FEN_PRINCIPALE.TABLE_Reussis[1].COL_JAUGE..BorneMin = 0
+      			FEN_PRINCIPALE.TABLE_Reussis[1].COL_JAUGE = FEN_PRINCIPALE.TABLE_Reussis[1].COL_JAUGE..BorneMax
+      			gnNBFichierOk_lib+=1
+      		sinon
+      			eEnumerationCourante = FTPAnnulé
+      			TableInsèreLigne(FEN_PRINCIPALE.TABLE_Echec,1,nIndiceTransfert,eEnumerationCourante..Valeur,stElementATransfererLocal.sNomFichierSansChemin,stElementATransfererLocal.nTailleDéjàRécupérée,stElementATransfererLocal.nTailleFichier)
+      			// Cette table doit avoir 6 colonnes : 
+      			// Col 1 : Numérique pour le numéro du tableau interne (conseillée invisible)
+      			// Col 2 : FTPATraiter, FTPEnCours, FTPTerminé, FTPEnErreur,FTPAnnulé
+      			// Col 3 : texte pour le nom d'un fichier
+      			// COL 4 : Entier pour la taille récupérée
+      			// COL 5 : TailleTotalFichier
+      			// COL 6 : Image pour la jauge
+      			
+      			FEN_PRINCIPALE.TABLE_Echec[1].COL_JAUGE..BorneMax = stElementATransfererLocal:nTailleFichier
+      			FEN_PRINCIPALE.TABLE_Echec[1].COL_JAUGE..BorneMin = 0
+      			gnNBFichierEchec_lib+=1
+      		FIN
+      		
+      	sinon
+      		
+      		eEnumerationCourante = FTPEnErreur
+      		TableInsèreLigne(FEN_PRINCIPALE.TABLE_Echec,1,nIndiceTransfert,eEnumerationCourante..Valeur,stElementATransfererLocal.sNomFichierSansChemin,stElementATransfererLocal.nTailleDéjàRécupérée,stElementATransfererLocal.nTailleFichier)
+      		// Cette table doit avoir 6 colonnes : 
+      		// Col 1 : Numérique pour le numéro du tableau interne (conseillée invisible)
+      		// Col 2 : FTPATraiter, FTPEnCours, FTPTerminé, FTPEnErreur,FTPAnnulé
+      		// Col 3 : texte pour le nom d'un fichier
+      		// COL 4 : Entier pour la taille récupérée
+      		// COL 5 : TailleTotalFichier
+      		// COL 6 : Image pour la jauge
+      		
+      		FEN_PRINCIPALE.TABLE_Echec[1].COL_JAUGE..BorneMax = stElementATransfererLocal:nTailleFichier
+      		FEN_PRINCIPALE.TABLE_Echec[1].COL_JAUGE..BorneMin = 0
+      		gnNBFichierEchec_lib+=1
+      		
+      	FIN
+      	
+      	
+      	// Erreur ?
+      	SI stElementATransfererLocal.bTransfertOk=Faux ALORS
+      		// Afficher l'erreur ?
+      		Info(<§@160a447a00299f0e0000§> + stElementATransfererLocal.sNomFichierSansChemin + rc + <§@160a447a00299f0e0001§>+ stElementATransfererLocal.sCompteRendu)
+      	FIN
+      	
+      	// Un fichier est terminé, un autre peut être traités
+      	SémaphoreFin("PoolThread",1)
+      	
+      	gnNbFichierAttente_lib -= 1
+      	
+      	//ToastAffiche(<§@160a447a00299f0e0002§>+stElementATransfererLocal.sNomFichierSansChemin)
+      	//ExécuteTraitement(FEN_PRINCIPALE.BTN_Actualiser_DISTANT,trtClic)
+      	//ExécuteTraitement(FEN_PRINCIPALE.BTN_Actualiser_LOCAL,trtClic)
+      	
+      	FIN
+      
+      	PROCEDURE INTERNE TransfertPasFini()
+      	// Au moins un transfert n'est pas fini
+      	bToutTransfertFini=Faux
+      	// Élément non présent dans la table
+      	SI  nIndiceLigne = -1 ALORS
+      		// Élément non présent dans la table
+      		
+      		// Élément en cours de transfert ?
+      		SI stElementATransfererLocal.bTransfertEnCours = Vrai ALORS
+      			// Élément en cours de transfert
+      			eEnumerationCourante = FTPEnCours
+      			nIndiceLigne=TableAjouteLigne(FEN_PRINCIPALE.TABLE_Transfert_en_cours,nIndiceTransfert,eEnumerationCourante..Valeur,stElementATransfererLocal.sNomFichierSansChemin,stElementATransfererLocal.nTailleDéjàRécupérée,stElementATransfererLocal.nTailleFichier)
+      			// Cette table doit avoir 6 colonnes : 
+      			// Col 1 : Numérique pour le numéro du tableau interne (conseillée invisible)
+      			// Col 2 : FTPATraiter, FTPEnCours, FTPTerminé, FTPEnErreur
+      			// Col 3 : texte pour le nom d'un fichier
+      			// COL 4 : Entier pour la taille récupérée
+      			// COL 5 : TailleTotalFichier
+      			// COL 6 : Image pour la jauge
+      		SINON
+      			// Élément à traiter
+      			eEnumerationCourante = FTPATraiter
+      			nIndiceLigne=TableAjouteLigne(FEN_PRINCIPALE.TABLE_Transfert_en_cours,nIndiceTransfert,eEnumerationCourante..Valeur,stElementATransfererLocal.sNomFichierSansChemin,stElementATransfererLocal.nTailleDéjàRécupérée,stElementATransfererLocal.nTailleFichier)
+      			// Cette table doit avoir 6 colonnes : 
+      			// Col 1 : Numérique pour le numéro du tableau interne (conseillée invisible)
+      			// Col 2 : FTPATraiter, FTPEnCours, FTPTerminé, FTPEnErreur
+      			// Col 3 : texte pour le nom d'un fichier
+      			// COL 4 : Entier pour la taille récupérée
+      			// COL 5 : TailleTotalFichier
+      			// COL 6 : Image pour la jauge
+      		FIN
+      		
+      		// Valeurs des bornes de la jauge
+      		FEN_PRINCIPALE.TABLE_Transfert_en_cours[nIndiceLigne].COL_JAUGE..BorneMax = stElementATransfererLocal:nTailleFichier
+      		FEN_PRINCIPALE.TABLE_Transfert_en_cours[nIndiceLigne].COL_JAUGE..BorneMin = 0
+      		
+      	SINON
+      		// Élément présent dans le tableau
+      		SI stElementATransfererLocal.bTransfertEnCours=Vrai ALORS
+      			eEnumerationCourante = FTPEnCours
+      			FEN_PRINCIPALE.TABLE_Transfert_en_cours[nIndiceLigne].COL_ENCOURS = eEnumerationCourante..Valeur	
+      		SINON
+      			eEnumerationCourante = FTPATraiter
+      			FEN_PRINCIPALE.TABLE_Transfert_en_cours[nIndiceLigne].COL_ENCOURS = eEnumerationCourante..Valeur
+      		FIN
+      		
+      		FEN_PRINCIPALE.TABLE_Transfert_en_cours[nIndiceLigne].COL_TAILLEEFFECTUE=stElementATransfererLocal.nTailleDéjàRécupérée
+      		FEN_PRINCIPALE.TABLE_Transfert_en_cours[nIndiceLigne].COL_JAUGE = stElementATransfererLocal.nTailleDéjàRécupérée
+      	FIN
+      	
+      	FIN
+     type : 458752
+   -
+     name : ViderListeTransfert
+     internal_properties : CAAAAAgAAACRzYOgRFf1jI1N9+CWCThcQsi2vITGd20f2ltmmPsoJYZ/sLXAcALfIsvKxSNRje0RjwVVUvl9IzNQpHbvXq1g/H6prIcyYWjh9UfZm2AnQ8Z1l9HKEoriRhLH/0wlIL7W9ewtYdmEFKJ+HPPXZF3OSVCJLTlGmDMBoORbkcOpy370IUa7TqrmVYXbSL7/Q1f2lyXs8wBC5gOHOieI5Rg8yVEVlrsRDFp0a4m8ZS7EC5xy/5kkjN0gsaW0T8Rs/AIUtH5RvnikdBToYEWnSH9IuDAVMmgqkm/synHbs7rA3xcXTBviHJDzvjuHlbwXSCQFse0m1NbtsYhYjKkAEA0uh+XljBV7448sg22aaWZKSb7Av8/S1TzoyqY3uQWjqSuqElfkKbUC
+     procedure_id : 1588174439578678289
+     type_code : 15
+     code : |1+
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      PROCEDURE ViderListeTransfert()
+      // Élément en cours de boucle
+      i est un entier = 1
+      
+      // On supprime les éléments terminés sans erreurs
+      pour i = 1 à TableauOccurrence(COL_FTP_taches_parallèle.gtabTableauListeFichiers)
+      	SI COL_FTP_taches_parallèle.gtabTableauListeFichiers[i].bTransfertTerminé  ET COL_FTP_taches_parallèle.gtabTableauListeFichiers[i].bTransfertOk ALORS
+      		TableauSupprime(COL_FTP_taches_parallèle.gtabTableauListeFichiers,i)
+      		TableSupprime(FEN_PRINCIPALE.TABLE_Transfert_en_cours,i)
+      		i--
+      	FIN
+      FIN
+      
+      
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : COL_SansNom1
+resources :
+ string_res :
+  identifier : 0x160a447a00299f0e
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+  strings :
+   -
+     text :
+      fr-FR : "Erreur lors du transfert du fichier : "
+     index : 0
+   -
+     text :
+      fr-FR : "Compte rendu de l'erreur : "
+     index : 1
+   -
+     text :
+      fr-FR : "Fin du transfert du fichier "
+     index : 2
+custom_note :
+ internal_properties : CAAAAAgAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ

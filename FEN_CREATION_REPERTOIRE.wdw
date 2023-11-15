@@ -1,0 +1,266 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_CREATION_REPERTOIRE
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_CREATION_REPERTOIRE
+ identifier : 0x23e8ae573103f505
+ internal_properties : CAAAAAgAAADiwVld6sFtVSWIj8p/o5FZcU+Me5rrWrKCzXi6DBCb3A8Od7sVO62uFsyhQ9tAiiI417S/R8MC4OZekRSS7xVwdn9D4Yz1J9eoO8M2L0bI+pK6YrKfQ6NGVJfBMd59eRoi7wn9shC7+uAEp8EPDAJASlwA+5kJobRfkj0laOY/aVBF4cA6LdtebbcMpdl82xfyrbQMYtjUWuVxA+bhiQXGXbgQZ70HOmcR/NUtbreVbpeV5hfkGKkcbgT07iZ3y4/pPy03Qhn/dtkRVl05yZ0+IFfkVbVAC1jjCCCAufg9GrVtDaKXff4VcXK+S29JgmRPkhCbb6rM8ODitXnxg39CirKLuV4sk5qsCtcYHCrlJotAKWgDkjvrnRwwjXxoDMh7yFvq5HoXfMqKEyE5y1XdAyf9sXrTi+Jcy4uL2zZGObbfGg8oJGoJ024tYLBItL3cPmjcGzRNc+V3+cc37zvbufBQL/pC7GBfZRpIpe4gh0qmFI8SsyNqE2Wau3g+fimd9ur0ODRRUWyE86gdWWGAN/7OlnL92WcKqzB94NvDxG4IIncv7nhqYzCzC8tSgaVFa3hs1MuoqGhfNmvHxEXHNKABZ8d5t6KUzllCN/y7djJIISx3215QZ1hDUxPp8vAqr8ECZuM4+H0C9fG39DHbyFX1Adj+Km71b/051CkLpjdRtiUjT+8qDOSLbaWCfwqQrdE331KXuBJWCREw15aV1yFIPqfsDhZZNqDCMycqg2tJUcmrKBvpLHcsHQAYv2dzKs/Wx57plNeRLJ9VoA1c2mqeFPPtUuGjsj7YKXVNww3+ONjye68uB2AcGAP7sObK3h7L4GQiK0mKJwx/Z4bDPfFM4Ql//zNSfocqGolKtbi+fnzHIl4TKqfiR1B0jq66slaKWXCQhSmHjApFJooCdElRx4xukstfYfrgSwK3sMd+dV/P84hr9FA6dPmb9Q5vWN6cRTE5oRbI4v00QqEDVIIEna0T3dxAsba0pFDduAEIkXRrptGICsBWUQjouz+CrBY+eJVh+IWn0Tu41vNc5+03VPrN8iXbdC5qOpSpJqjkduysVJVYG5gqkWgXT5QYjjPvv2zFqduydxqnFmYTqScP2W/CDYxG8ys6s/eSVImeNgw+CwECRx4mhhnsDi/thDfoAChhRlS67uFN1bI9mHwPVUcJ/FM5thLBNkMtJiCxfkHsZVluozYS5cnukn6MS8ulsrpsftk5rBDEAJ7xNNnEjkVhUnBrxDzlmkvn0bnhu8w4Cl0zO1HydB0k82bVKMcoDAxl98n4tDwi2kzv7u56AIdZTcA0tbzPmXScjbh3+LMdxwvzn9TiYsUZ9p3I/N4Gaha9ofXWTdhbQmZ5pNPnPZkUa+hjG+lnpFjJBQjV8FET458ketgCd+t0BLgdmWadTGVvQrfNd/j+7ap7pwDOEzJH5Wg=
+ properties :
+  width : 337
+  height : 170
+  widthClient : 335
+  heightClient : 138
+  widthMin : 334
+ controls :
+  -
+    name : SAI_REPERTOIRE
+    identifier : 0x23e8ae573105f505
+    internal_properties : CAAAAAgAAABIt8cMjstt0f5Cg2ExU6hzvQ5qc1POWVbeILnDSxJpmPDS1emK47yT4C4ZRextecGOBmMEek7rgNjhkd6WAZvTUD/uXfK8Q3JShqoGPhInwzN70dhIppAW9tgyxCcA/Tl6WKONwkcR6fVeCR24Hh920jKJ3D7rJO8EDOcyfe8YSuCdmSzWpXzBnPeps4cRJriVBx2S+La0ApVP0NpbMfLm6k3pN9E28Y+z9nWCQPUeu55puvQdaggSHXqluCexxhssl9Kd05FlZ7DBSCs34DRyfKD14/1OVx7A0xvU58rolNcUl6es1G1jw8KigFiMN2W69wDjMws01dSn2AM9xmEUkfd8mx9rwVKNHunIxv+kgoI3F9kLo+imTKwjTCjLBafCzAP7fgp0OZGm7+qr4K/t/Vb5dUvOulomyjpZDqM3lICET9Y297rG0BMeFz2GLwCgiqazWCCs0/sMAe4dQxAY4KSfoV92uWRHDsFy3xrEA8UjjJrsuMN4VHVd2TURChGJ5bbvUYcX0H2GaqIWpyMYzyJ776lm6tJyvl0Gm6weXA5WRJZX3KyvAihT4W2c8CZ2O1FrzWtPPCUiJH+mSFqVM7r3UdfuD6Tg0xkKYv9wwU7vWbLl9anpN6sT462SJDmpNxdWIEWZoZhoiWfrBHb4tjnNtWJazz4UdwsFjcNJioiErnawHoR0SZA5UwAPa4dd9XYqxd0nyoGJ3MRXKjnYPlpVGTuvwqOGXFn5NRd2LYao70VWN7c9CvXE5XrBgTBoNqEbVAFfUEMNcfsZo158eKS62ePbAhQDlTzCisAgQgj+pLjcDuD3qD/UsnkbgXKsEbogzwnELyZIx80ZQvVs/jFTUyiEj5GOjmbNCm0LaYvkKK892KXUc+4zdHIeHNFAeyEd4thvRECTpQYmmc9nAvaTI2CE7sLOGW8erDByZ4qbwn4M6SNXYgGras7YoydZ7nRqQxqruXYMdKDS3b1veGxVGD6oU4BocxLNr33Z/HVSQP+hAyyzrhnLkuG16Dwn25vjFrPbSpSDK+E43hwgg/zDCiKLZ0KlNFk05CzXLbyvKcm/nfjFa62G1t3xQYF4f9PTqODnjK1doUZMZtAOSceIbQUZ1D1Bmq2oYwQb3ccvNT7qDMCIDWkJvPJzaqtTMrCSBZKqCTwnWnpWjT6ZxmCjw9GOZtIbqkcM5lNz+Pi1baTK4YeTrQ0B73Z0xSd4LPHERZ8lBualOpmzUff7ZlgUqfROU97ApAQM3kqVIumNRn8BYF5rFfRQ5arjFQksu++zl4kr+nB/4+AddyGpdBKssiLNIW3eqLMdEorMMHVbauvi8TeK937a62Ny4MkwRtGtAPUPTqofrk8Fvy4qezEqIAaHSQJ+Mmp1vxFWns97NRaGQRTlHpklJBr9V1CUA90nmXqgGwOAf0yr7A==
+    properties :
+     x : 6
+     y : 56
+     width : 317
+     height : 38
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1-
+         
+        type : 15
+      -
+        code : |1-
+         
+        type : 16
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        code : |1-
+         
+        type : 17
+  -
+    name : BTN_OK
+    identifier : 0x23e8ae573106f505
+    internal_properties : CAAAAAgAAAB0NE0t/T+vD2I212cuR0Mc8RUmZPnEYMbQ+99tIN9Ir2nAckaEoEpHzM2VTxUjlwfN0xEO3jqFrjdxWhS+SjqqmC870YW2FmEWJJ6CsYIB4fm4YJd2v033IRe0hXdNzO6qJ3Ut6U/6evHNmgS3+Pn0Qyacl9dDMhTWLKJYSYY7dpklved43YzWIPKsCnbUWHKLkv38ZN2sq0eigq9rYpMh6tkC+lS+AHiQOBUva4gXRAFeWeGLH8Y+wahYDt0XRbCPOd3BKbZFOBYs7/7looicK7sL30NoPCOWE9sSSFb6k8aQV9XMNNugOT0UosuIA8Zp3LuuPlOZaL067GNYFw742A65jYwH9E1qHlW6DIimkQ/nMsEI0cnm+eAGMuausHz9dsDnSsyZqflEqef5G9UMdap9+okSUQmKSseJrS7YnppMkBFL/5mg842Npng38M/S+yD9aD23fpB1sc2TwPKJLSH4BsKyBOIc+ZxT/0rAI4P6VePiDiNfGpIJ7v6Bj5oSlNSVMmYBq2GIFa3rgMDZb5FCADiz3uvCe068RQbzYddtddZrmbT4DGU91ggatrSvsWNsTQf/QQefCL/Jn0nhALlP6L95Qok25mrHP0mchU2r2aCmBaLcQ8wOvN5y2ENzhMi6YoaDU0iud4r3y8fpGWDvymLiYs+vgLxEYmH7ikHKde/em35yWVPmprs3IU5oYsQcmWJN2Q5l14sUnHcKlYMX0KVYhBv/fVN8z9o9TGquzexPLQ1unj8SaoI2m28e1l9dc8T7wGPB4slBPxgNW4FQ7cO1Qj20HmFcDvvBvcyP8JiW26LFXb6x0ELBpxl4hSG6fmCNw1nA2aI2gtkrqwqZbhzU6wYlhTLorcpRm/7xu7j+1Vhn6jknjMZIhF8NIM5/gNZEGmTntIwIu1Yp3S+5nFE/xb+hSlvlC7j2CWb/frOvnB1wjK8kgRTaJDSadBzE6N7UdLE8uacWovm9vDQsN5c9L+IRz0gT
+    properties :
+     x : 157
+     y : 100
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        internal_properties : CAAAAAgAAAD3PfhAj13+e3Tq365W/blzvSGdoN6J5K4US3kiB8bjYfoY0ANQmI+kHwpltaxV/4XJzvToP9zvc0FAUaUEhW3Nud9GGA0xCOiIYt4jowi+e0qmBhgGkQ==
+        code : |1-
+         // Variables locales
+         cSeparateur est une chaine
+         
+         // Gestion du séparateur ("fSep" en Windows, "/" en FTP)
+         si bLocal = vrai alors
+         	cSeparateur = fSep
+         SINON
+         	cSeparateur = "/"
+         	si sRepEnCours = "/" alors cSeparateur = ""
+         FIN
+         
+         // Création du répertoire
+            // On regarde s'il s'agit d'un répertoire local ou distant
+         si bLocal = vrai alors
+         	// Répertoire local	
+         	frepcréé(sRepEnCours+cSeparateur+SAI_REPERTOIRE)
+         	sRepEnCours = sansespace(sRepEnCours)+sansespace(cSeparateur)+sansespace(SAI_REPERTOIRE)						
+         
+         SINON
+         	// Répertoire distant (FTP)
+         	FTPRepCrée(gstConnexionFTP.nIDConnexion,sRepEnCours+cSeparateur+SAI_REPERTOIRE)
+         	sRepEnCours = sansespace(sRepEnCours)+sansespace(cSeparateur)+sansespace(SAI_REPERTOIRE)
+         FIN
+         
+         
+         // Fermeture de la fenêtre
+         Ferme
+         
+         CAS ERREUR:
+         		Erreur(<§$0000§>,ErreurInfo(errRésumé))
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_ANNULER
+    identifier : 0x23e8ae573107f505
+    internal_properties : CAAAAAgAAADr4Rbfl+A546386MUV+tgp41pdq4hMRfLzk6D2rPIfCFtY/eQrTo7OhAPQmwaiAr+YdLRA4hKuyFeQ8qFPT2Y/vjcg5a+9juqRf2ANE3HlKLp/ytGW5LAjYb2MeEj6Ab+JcjO2wCrpfMnko7s2NH5PoqOjHAqUEtJoNNX0JQkxZtD9h0QbS9AUlnGUnGjQ/fHo/6wcdT1kkgREFMBCgM8r012ePRpgB0Yeo5j5EQIxQgneOsXiRr5pvblwKx91z6phERRYZIccXRQc4IA219mTkv1so3ywyL5u5TwDm8BbcYIS8RHI8qTaTkgdTYKMJxDRF8bsb3V6hv5FSQylPVJ+fECe7xUGo9uOd5mKqUS2YkjYXsAWiMpXENlzxSVWrZ1PWCRBUglv8wYu8W9tMy4VN1J6R9Ibf17ARRaTGB6qJ+rM+sL7WqPJ6VLcgj+gKl5ZU89Fe9Doo3Je8bSLqjYFF1ilHtPjsd0+uhiQj8jbSDzqXFZ9GY5ke4ebDazNc24P4p2JevuHj5UE9YK6oq0WqEC61ObsYdVEUK4OdBAEoZdlQBpgU/6+5dytqDNgCb9/xzLYjwqZagcz9zXFUjZFY80UwZsNYWYMrm9Dk5ntNCabga2cLdVxfhgKGnJAW81+Yn2pncZdXyCbjDsDsiPkKfmTh81D7W/Ge0W883daBabUviWZjlYwJQfTZFan1JvWZQniNfja4EHlcLl5Peb87OZfwYLYQ+q4/hM+noE/lQ6hsJ4EVg/VzGus/YXHvjCW4Rog7V5yxQxRC2alzZIib6wp0/ZvPqYsczL514GMOoV4d4J4tZ3H16paehMEBW/fYa2FdCVAIYIAqH0DMA/uhOI3B08eFEOf6p/S+9o3BCilkN9l/36NYRyWD09066+ZWExSLe780xyIH8xKz+vU5Z3kPpCg0gqnD6x0avsG5+Z4T2ZEwhpceATeZXD+df1vaiX5/1BjCDhSv11Mm97XatoWEJAkcg3bZPIjciyfLmlNg2DE
+    properties :
+     x : 243
+     y : 100
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1+
+         // Fermeture de la fenêtre
+         Ferme
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : LIB_SOUSTITRE
+    identifier : 0x29259a5e0df56ac7
+    internal_properties : CAAAAAgAAAAbWEr+AnR/mi8BdkjesNNm/VH8R1wzo3mD0Ltdnx618zVGHlU/cp6Sc5yZWE0IDTLtdWdgjG+FQp7lgWVYgo+aNdj9tKVUbA4qKiG/02TFO53n7iUfp5FJGHGlwWEdrlYEHnp2MDsGputOIWO+5yEa8rXqxKBzEQP5Zmn0KftVLKKO/BXJecQmcqObAH7gLdTEqhILg4fflT8NDWBtURcCE15YZjtZVuLgG/78Ny6sTwk0RKp0rR+5G3XBtIMx9Ck72sy+Skux4MpTS1W6sJdjbMSNV/k0ye4P6i+Chx85T8bmNlUzg/BNYnGoiw5M5AoKpJOaSCmvMbvAL1FWA6NlHHDuL7F+AuZxRJvqFZjTknW1IIcZ7NRUJVaTsQuHZ+2dhHrPD0m1hbt/TYU9eb+MH3PxNAZorVPVNL49kv916mVM+luacE0QVfIp8BOu9OCaNeRoaKEvArSKdXxdAcdTXuy6GUDKdM//tF8bkl9YT6ZfL1kiGv2CKV2on6ZHVqPRBgdJCz3cnubIk4d78RcEQ/SrLJi8MvM=
+    properties :
+     x : 4
+     y : 4
+     width : 311
+     height : 42
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1+
+         //Exécute le traitement défini dans le modèle
+         
+        type : 14
+ menu :
+  name : _Menu
+  identifier : 0x23e8ae573108f505
+  internal_properties : CAAAAAgAAADAfZ27Q+jJ/MBXHLGCb7PyE2Yqjvuo9mAX2ZN+LLuyQtzms1431znXR0sNCCeLESXZp1gqmo+m2mUhb2ELR2phZ8VOgUSyXddfQyxpxffipvH/iiFuFkCLgpjx1Ah9/9/ndeRpWb0s9Qcjy8oPtW3aMcRtuglgDe5Ch9/jnC/Drp19/hhf+qz96diLw5T0yWlzg33c/E8hhMwUBdSOV69/8iDQGLfTvLoTvV3YkiQ5Dce7dxB2gUx1AVvVTykQMm7G+0haIOV568KMGgPEJluRN2XjgQ11Tb8vVxt6P2g=
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAABQQzmQpSWAxECqpaA+ToyskEXkZhdPa/8ohQPceFOMhGS8dzqD+T6Edh1ifyOez6MNG4pu8mcLEWZ/WLqRChpsVPdr3p4U09oWNbqksQE3MoVr/JeP0BuGib0oE1FbpQ==
+ actionbar : {}
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      PROCEDURE FEN_CreationRepertoire(sRepEnCours="",bLocal=Vrai)
+      
+   -
+     code : |1-
+      
+     type : 34
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+     type : 2
+   -
+     code : |1-
+      
+     type : 11
+   -
+     code : |1-
+      
+     type : 12
+   -
+     type : 17
+   -
+     code : |1-
+      
+     type : 13
+  templates :
+   -
+     name : FEN_CREATION_REPERTOIRE
+     identifier : 0x1543cfe0026b413d
+     code_elements :
+      internal_properties : CAAAAAgAAABGHvAM1+z00SnFu4KGOnYF7u7Zc4x5+kpHRinJ/J5bseKPJLEu5QWrYfhC5ObJPz2LixZbD97bNTFPpSbfhpPDz8XM+w6IN/4bZllUJ8AHdQcZTWTT4Nvyy0/q5338btD4byJ7YVrLhFDtyv5SiJJnFyMfHJia3Q==
+      type_code : 1
+      p_codes :
+       -
+         code : |1+
+          
+          
+       -
+         code : |1+
+          
+          
+         type : 34
+       -
+         type : 180
+         enabled : false
+       -
+         type : 230
+         enabled : false
+       -
+         code : |1+
+          
+          
+         type : 2
+       -
+         code : |1+
+          
+          
+         type : 11
+       -
+         code : |1+
+          
+          
+         type : 12
+       -
+         code : |1+
+          
+          
+         type : 17
+       -
+         code : |1+
+          
+          
+         type : 13
+ code_parameters :
+  internal_properties : CAAAAAgAAAAhInS+NDJXuJjZEVrqwOH6p6Y/aMmIo5qISeYCIBY2SoEUy11wntM2rs/JHLoXEw14izZUYcZBOQWz8lMbhZFBe1/W1eT5JIjZaJHXYFkSJydDCjhsmz3KoTNBS3ZJ8oVGzgI=
+  original_name : FenCreationRepertoire
+resources :
+ string_res :
+  identifier : 0x3adf1bba6940c585
+  internal_properties : CAAAAAgAAAA8HpItcN7eoRKcVNu2KtzNYqygVd9Dt6eqyJwtSaB1ofcXGciKNhTxlmv0bbss9esrKw==
+  strings :
+   -
+     text :
+      fr-FR : Une erreur est survenue pendant la création du répertoire
+     index : 0
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe
